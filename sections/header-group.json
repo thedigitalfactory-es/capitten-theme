@@ -33,9 +33,7 @@
         "announcement-bar-0",
         "announcement_KdQmd6"
       ],
-      "custom_css": [
-        "h26{display: none;}"
-      ],
+      "custom_css": [],
       "settings": {
         "auto_rotate": true,
         "change_slides_speed": 3,
