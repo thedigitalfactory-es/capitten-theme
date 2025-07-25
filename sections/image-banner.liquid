@@ -10,8 +10,6 @@
         content: '';
         display: block;
       }
-      #Banner-{{ section.id }} .only-desktop { display: none !important; }
-      #Banner-{{ section.id }} .only-mobile { display: block !important; }
     }
 
     @media screen and (min-width: 750px) {
@@ -21,8 +19,6 @@
         content: '';
         display: block;
       }
-      #Banner-{{ section.id }} .only-desktop { display: block !important; }
-      #Banner-{{ section.id }} .only-mobile { display: none !important; }
     }
     
   {%- endstyle -%}
@@ -32,6 +28,18 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+
+  @media screen and (max-width: 749px) {
+    #Banner-{{ section.id }} .only-desktop { display: none !important; }
+    #Banner-{{ section.id }} .only-mobile { display: block !important; }
+  }
+
+  @media screen and (min-width: 750px) {
+    #Banner-{{ section.id }} .only-desktop { display: block !important; }
+    #Banner-{{ section.id }} .only-mobile { display: none !important; }
+  }
+
+  
 {%- endstyle -%}
 
 {%- liquid
