@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "text": "<strong>Andrés Iniesta's sports brand</strong>",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
         "button": {
@@ -44,7 +44,7 @@
         "button"
       ],
       "custom_css": [
-        ".banner__box .subtitle{color: white;}"
+        ".banner__box .subtitle {color: white;}"
       ],
       "settings": {
         "image": "shopify://shop_images/banners_capitten_v3.jpg",
