@@ -403,5 +403,12 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* MOBILE */.banner__box .banner__heading {color: white; font-weight: 400; font-size: 18px;}",
+      ".banner__box .banner__text {color: white; font-size: 20px;}",
+      "/* DESKTOP */@media screen and (min-width:768px) {.banner__box .banner__heading {color: white; font-weight: 400; font-size: 25px; } .banner__box .banner__text {color: white; font-size: 40px; } }"
+    ]
   }
 }
