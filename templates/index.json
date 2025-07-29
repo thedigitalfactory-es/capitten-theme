@@ -109,7 +109,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "<strong>COLLECTIONS</strong>",
+        "title": "COLLECTIONS",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 2,
