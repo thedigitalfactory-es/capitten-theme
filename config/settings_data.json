@@ -406,7 +406,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* HOME · HERO *//* MOBILE · Alto Banner */@media screen and (max-width: 749px) {.banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 55vh; }}",
+      "/* HOME · HERO *//* MOBILE · Alto Banner */@media screen and (max-width: 749px) {.banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50vh; }}",
       "/* MOBILE · Posición contenedor */.banner__content {align-items: flex-end; padding: 3rem;}",
       "/* MOBILE · Textos */.banner__box .banner__heading {color: white; font-weight: 300; font-size: 16px;}",
       ".banner__box .banner__text {color: white; font-size: 24px;}",
