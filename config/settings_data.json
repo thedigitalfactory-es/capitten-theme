@@ -406,11 +406,13 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* HOME · HERO *//* MOBILE · Alto Banner */@media screen and (max-width: 749px) {.banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50vh; }}",
-      "/* MOBILE · Posición contenedor */.banner__content {align-items: flex-end; padding: 3rem;}",
-      "/* MOBILE · Textos */.banner__box .banner__heading {color: white; font-weight: 300; font-size: 16px;}",
+      "/* COMMON ***************** */.title-wrapper{text-align: center;}",
+      "/* HOME ------------------- *//* HOME · HERO · ALTO */@media screen and (max-width: 749px) {.banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50vh; }}",
+      "/* HOME · HERO · CONTENEDOR ABAJO */.banner__content {align-items: flex-end; padding: 3rem;}",
+      "/* HOME · HERO · TEXTOS */.banner__box .banner__heading {color: white; font-weight: 300; font-size: 16px;}",
       ".banner__box .banner__text {color: white; font-size: 24px;}",
-      "/* DESKTOP · Textos */@media screen and (min-width: 768px) {.banner__box .banner__heading {font-size: 25px; } .banner__box .banner__text {font-size: 40px; }}"
+      "@media screen and (min-width: 768px) {.banner__box .banner__heading {font-size: 25px; } .banner__box .banner__text {font-size: 40px; }}",
+      "/* PARRILLAS --------------- */"
     ]
   }
 }
