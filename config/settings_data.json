@@ -406,9 +406,10 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* MOBILE */.banner__box .banner__heading {color: white; font-weight: 300; font-size: 18px;}",
+      "/* HOME · HERO *//* MOBILE · Alto Banner */@media screen and (max-width: 749px) {.banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50vh; }}",
+      "/* MOBILE · Textos */.banner__box .banner__heading {color: white; font-weight: 300; font-size: 18px;}",
       ".banner__box .banner__text {color: white; font-size: 20px;}",
-      "/* DESKTOP */@media screen and (min-width: 768px) {.banner__box .banner__heading {font-size: 25px; } .banner__box .banner__text {font-size: 40px; }}"
+      "/* DESKTOP · Textos */@media screen and (min-width: 768px) {.banner__box .banner__heading {font-size: 25px; } .banner__box .banner__text {font-size: 40px; }}"
     ]
   }
 }
