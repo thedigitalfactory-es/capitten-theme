@@ -414,7 +414,8 @@
       ".banner__box .banner__text {color: white; font-size: 24px;}",
       "@media screen and (min-width: 768px) {.banner__box .banner__heading {font-size: 25px; } .banner__box .banner__text {font-size: 40px; }}",
       "/* HOME · FEATURED PRODUCTS */.collection .slider-buttons {display: none;}",
-      ".quick-add button {background-color: #09AF5D; color: white;}",
+      ".quick-add button {background-color: #09af5d; color: white;}",
+      ".quick-add .button--secondary {--color-button-text: white;}",
       "/* PARRILLAS --------------- */"
     ]
   }
