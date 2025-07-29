@@ -406,8 +406,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* COMMON ***************** */.title-wrapper{text-align: center;}",
-      ".title-wrapper-with-link{display: inherit !important;}",
+      "/* COMMON ***************** */.title-wrapper {text-align: center;}",
       "/* HOME ------------------- *//* HOME · HERO · ALTO */@media screen and (max-width: 749px) {.banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50vh; }}",
       "/* HOME · HERO · CONTENEDOR ABAJO */.banner__content {align-items: flex-end; padding: 3rem;}",
       "/* HOME · HERO · TEXTOS */.banner__box .banner__heading {color: white; font-weight: 300; font-size: 16px;}",
