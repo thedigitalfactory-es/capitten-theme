@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "CAPITTEN",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "text": {
@@ -44,9 +44,8 @@
         "button"
       ],
       "custom_css": [
-        "/* MOBILE */.banner__box .banner__heading {color: white; font-weight: 400; font-size: 18px;}",
-        ".banner__box .banner__text {color: white; font-size: 20px;}",
-        "/* DESTKOP */@media screen and (min-width: 1024px) {.banner__box .banner__heading {color: white; font-weight: 400; font-size: 25px; } .banner__box .banner__text {color: white; font-size: 40px; }}"
+        "/* DESKTOP */.banner__box .banner__heading {color: white; font-weight: 400; font-size: 25px;}",
+        ".banner__box .banner__text {color: white; font-size: 40px;}"
       ],
       "settings": {
         "image": "shopify://shop_images/banners_capitten_v3.jpg",
@@ -54,7 +53,7 @@
         "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "none",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
         "color_scheme": "scheme-cba75497-2de8-46c9-8b85-21697ef8ff06",
