@@ -408,8 +408,9 @@
     "custom_css": [
       "/* ----- COMMON ----- */.title-wrapper {text-align: center;}",
       ".title-wrapper-with-link {display: inherit;text-align: center;}",
-      "/* --- POPUP AtC --- */.product-form__buttons button{background-color: #09af5d;color: white;}",
-      ".product-form__buttons button:after{box-shadow: none;}",
+      "/* --- POPUP AtC --- */.quick-add-modal .product__tax{display: none;}",
+      ".quick-add-modal .product-form__buttons button{background-color: #09af5d;color: white;}",
+      ".quick-add-modal .product-form__buttons button:after{box-shadow: none;}",
       "/* ----- HOME ----- *//* HOME · HERO · ALTO */@media screen and (max-width: 749px) {.banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50vh; }}",
       "/* HOME · HERO · CONTENT */.banner__content {align-items: flex-end; padding: 3rem;}",
       "/* HOME · HERO · TEXTOS */.banner__box .banner__heading {color: white; font-weight: 300; font-size: 16px;}",
