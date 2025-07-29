@@ -43,10 +43,7 @@
         "text",
         "button"
       ],
-      "custom_css": [
-        "/* DESKTOP */.banner__box .banner__heading {color: white; font-weight: 400; font-size: 25px;}",
-        ".banner__box .banner__text {color: white; font-size: 40px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/banners_capitten_v3.jpg",
         "image_mobile": "shopify://shop_images/About-Us-Hero-image-Andres-_-1080-x-1600-px.jpg",
