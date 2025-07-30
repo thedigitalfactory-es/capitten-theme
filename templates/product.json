@@ -69,7 +69,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "",
+            "content": "<p><a href=\"https://capitten.com/pages/shipping-delivery\" title=\"https://capitten.com/pages/shipping-delivery\">Shipping</a></p><p><a href=\"https://capitten.com/pages/returns\" title=\"https://capitten.com/pages/returns\">Returns</a></p>",
             "page": ""
           }
         },
