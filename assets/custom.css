@@ -53,7 +53,7 @@ h1, .h1 {
 
 
 .product__tax {
-  display: none !important;
+  display: none;
 }
 
 .product-form__buttons button {
