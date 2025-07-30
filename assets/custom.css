@@ -55,6 +55,7 @@ h1, .h1 {
 
 /* ---------- HOME ---------- */
 
+/* Hero */
 @media screen and (max-width: 749px) {
   .banner--large:not(.banner--mobile-bottom):not(.banner--adapt)
     .banner__content {
@@ -94,6 +95,7 @@ h1, .h1 {
   }
 }
 
+/* Featured products */
 .collection .slider-buttons {
   display: none;
 }
