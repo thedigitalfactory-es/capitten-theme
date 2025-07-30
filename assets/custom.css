@@ -12,7 +12,11 @@ h1, .h1 {
   text-align: center;
 }
 
-
+/* AtC */
+.quick-add button {
+  font-size: 13px;
+  min-height: 40px;
+}
 
 
 
@@ -37,7 +41,29 @@ h1, .h1 {
 @media screen and (max-width: 749px) {
   .banner--large:not(.banner--mobile-bottom):not(.banner--adapt)
     .banner__content {
-      min-height: 50vh ;
+      min-height: 50vh /* AtC */
+.quick-add button {
+  background-color: #09af5d;
+  color: white;
+  font-size: 13px;
+  min-height: 40px;
+}
+.quick-add button:after {
+  box-shadow: none;
+}
+
+.product__tax {
+  display: none;
+}
+
+.product-form__buttons button {
+  background-color: #09af5d;
+  color: white;
+}
+
+.product-form__buttons button:after {
+  box-shadow: none;
+};
   }
 }
 
