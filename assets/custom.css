@@ -1,4 +1,134 @@
-/* Custom styles applied across the entire site */
-.gradient {
-  background-color: red;
+/* ---------- COMUN ---------- */
+h1, .h1 {
+  font-size: calc(var(--font-heading-scale) * 2rem);
+}
+
+/* Títulos secciones */
+.title-wrapper {
+  text-align: center;
+}
+.title-wrapper-with-link {
+  display: inherit;
+  text-align: center;
+}
+
+/* AtC */
+.quick-add button {
+  background-color: #09af5d;
+  color: white;
+  font-size: 13px;
+  min-height: 40px;
+}
+.quick-add button:after {
+  box-shadow: none;
+}
+
+.product__tax {
+  display: none;
+}
+
+.product-form__buttons button {
+  background-color: #09af5d;
+  color: white;
+}
+
+.product-form__buttons button:after {
+  box-shadow: none;
+}
+
+
+
+
+
+/* ---------- HEADER ---------- */
+.header a {
+  text-transform: uppercase;
+}
+
+.header .list-menu__item {
+  line-height: 40px;
+}
+
+
+
+
+
+/* ---------- HOME ---------- */
+
+@media screen and (max-width: 749px) {
+  .banner--large:not(.banner--mobile-bottom):not(.banner--adapt)
+    .banner__content {
+    min-height: 50vh;
+  }
+}
+
+.banner__content {
+  align-items: flex-end;
+  padding: 3rem;
+}
+
+.banner__box .banner__heading {
+  color: white;
+  font-weight: 300;
+}
+.banner__box .banner__text {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .banner__box .banner__heading {
+    font-size: 16px;
+  }
+  .banner__box .banner__text {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner__box .banner__heading {
+    font-size: 25px;
+  }
+  .banner__box .banner__text {
+    font-size: 40px;
+  }
+}
+
+.collection .slider-buttons {
+  display: none;
+}
+
+
+
+
+
+/* ---------- PARRILLAS ---------- */
+.grid__item {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/* ---------- FICHA DE PRODUCTO ---------- */
+.thumbnail-list__item.slider__slide {
+  width: calc(20% - 0.6rem);
+}
+
+.icon-with-text {
+  text-align: center;
+}
+
+.icon-with-text .svg-wrapper {
+  height: 16px;
+  min-height: 16px;
+}
+
+.icon-with-text .h4 {
+  font-size: 12px;
+}
+.icon-with-text--vertical .icon-with-text__item {
+  display: inherit;
+  margin-bottom: 0px;
 }
