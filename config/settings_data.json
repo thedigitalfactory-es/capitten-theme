@@ -424,7 +424,8 @@
       "@media screen and (min-width: 768px) {.banner__box .banner__heading {font-size: 25px; } .banner__box .banner__text {font-size: 40px; }}",
       "/* Featured */.collection .slider-buttons {display: none;}",
       "/* ---- PARRILLAS ---- */.grid__item {margin-bottom: 20px;}",
-      "/* --- FdP --- */.thumbnail-list__item.slider__slide {width: calc(20% - 0.6rem);}"
+      "/* --- FdP --- */.thumbnail-list__item.slider__slide {width: calc(20% - 0.6rem);}",
+      ".icon-with-text .icon-with-text__item {display: inline-block; align-items: center;}"
     ]
   }
 }
