@@ -99,10 +99,6 @@ h1, .h1 {
   width: calc(20% - 0.6rem);
 }
 
-.product-form__input .form__label {
-    display: none;
-}
-
 .icon-with-text {
   text-align: center;
 }
