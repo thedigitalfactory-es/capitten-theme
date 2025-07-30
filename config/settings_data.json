@@ -406,13 +406,14 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* ----- COMMON ----- */.title-wrapper {text-align: center;}",
+      "/* ----- COMMON ----- */h1{font-size: calc(var(--font-heading-scale) * 2rem);}",
+      ".title-wrapper {text-align: center;}",
       ".title-wrapper-with-link {display: inherit; text-align: center;}",
       "/* AtC */.quick-add button {background-color: #09af5d; color: white; font-size: 13px; min-height: 40px;}",
       ".quick-add button:after {box-shadow: none;}",
-      "/* AtC · Popup */.quick-add-modal .product__tax {display: none;}",
-      ".quick-add-modal .product-form__buttons button {background-color: #09af5d; color: white;}",
-      ".quick-add-modal .product-form__buttons button:after {box-shadow: none;}",
+      ".product__tax {display: none;}",
+      ".product-form__buttons button {background-color: #09af5d; color: white;}",
+      ".product-form__buttons button:after {box-shadow: none;}",
       "/* ----- HEADER ----- */.header a {text-transform: uppercase;}",
       ".header .list-menu__item {line-height: 40px;}",
       "/* ----- HOME ----- *//* Hero · Alto */@media screen and (max-width: 749px) {.banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50vh; }}",
@@ -422,9 +423,7 @@
       "@media screen and (max-width: 768px) {.banner__box .banner__heading {font-size: 16px; } .banner__box .banner__text {font-size: 24px; line-height: 30px; }}",
       "@media screen and (min-width: 768px) {.banner__box .banner__heading {font-size: 25px; } .banner__box .banner__text {font-size: 40px; }}",
       "/* Featured */.collection .slider-buttons {display: none;}",
-      "/* ---- PARRILLAS ---- */.grid__item {margin-bottom: 20px;}",
-      "/* ---- FdP ---- */.product__title h1{font-size: calc(var(--font-heading-scale) * 2rem);}",
-      ".product__tax{display: none;}"
+      "/* ---- PARRILLAS ---- */.grid__item {margin-bottom: 20px;}"
     ]
   }
 }
