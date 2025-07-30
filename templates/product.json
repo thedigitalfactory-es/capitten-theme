@@ -64,15 +64,6 @@
             "page": ""
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "<p><a href=\"https://capitten.com/pages/shipping-delivery\" title=\"https://capitten.com/pages/shipping-delivery\">Shipping</a></p><p><a href=\"https://capitten.com/pages/returns\" title=\"https://capitten.com/pages/returns\">Returns</a></p>",
-            "page": ""
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
@@ -97,7 +88,6 @@
         "icon_with_text_8JqFLw",
         "collapsible_tab_gfTgnh",
         "collapsible-row-2",
-        "collapsible-row-1",
         "collapsible-row-3",
         "share"
       ],
