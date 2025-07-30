@@ -20,13 +20,6 @@
           "type": "price",
           "settings": {}
         },
-        "text_pNLQAQ": {
-          "type": "text",
-          "settings": {
-            "text": "Select size: (<a href=\"https://capitten.com/pages/size-guide\" title=\"https://capitten.com/pages/size-guide\">Size guide</a>)",
-            "text_style": "body"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -62,6 +55,15 @@
             "page": ""
           }
         },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "<p><a href=\"/pages/size-guide\" title=\"Size guide\">Size Guide</a></p>",
+            "page": ""
+          }
+        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
@@ -81,11 +83,11 @@
       "block_order": [
         "title",
         "price",
-        "text_pNLQAQ",
         "variant_picker",
         "buy_buttons",
         "icon_with_text_8JqFLw",
         "collapsible_tab_gfTgnh",
+        "collapsible-row-2",
         "collapsible-row-3",
         "share"
       ],
