@@ -20,6 +20,13 @@
           "type": "price",
           "settings": {}
         },
+        "text_pNLQAQ": {
+          "type": "text",
+          "settings": {
+            "text": "Select size (<a href=\"https://capitten.com/pages/size-guide\" title=\"https://capitten.com/pages/size-guide\">Size guide</a>)",
+            "text_style": "body"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -83,6 +90,7 @@
       "block_order": [
         "title",
         "price",
+        "text_pNLQAQ",
         "variant_picker",
         "buy_buttons",
         "icon_with_text_8JqFLw",
