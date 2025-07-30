@@ -41,7 +41,11 @@ h1, .h1 {
 @media screen and (max-width: 749px) {
   .banner--large:not(.banner--mobile-bottom):not(.banner--adapt)
     .banner__content {
-      min-height: 50vh /* AtC */
+      min-height: 50vh 
+    }        
+}
+
+/* AtC */
 .quick-add button {
   background-color: #09af5d;
   color: white;
