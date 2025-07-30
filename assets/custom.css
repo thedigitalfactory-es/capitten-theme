@@ -1,9 +1,8 @@
-/* ---------- COMUN ---------- */
+/* COMUN */
 h1, .h1 {
   font-size: calc(var(--font-heading-scale) * 2rem);
 }
 
-/* Títulos secciones */
 .title-wrapper {
   text-align: center;
 }
@@ -12,17 +11,30 @@ h1, .h1 {
   text-align: center;
 }
 
-/* AtC */
 .quick-add button {
+  background-color: #09af5d;
+  color: white;
   font-size: 13px;
   min-height: 40px;
 }
+.quick-add button:after {
+  box-shadow: none;
+}
 
+.product__tax {
+  display: none;
+}
 
+.product-form__buttons button {
+  background-color: #09af5d;
+  color: white;
+}
 
+.product-form__buttons button:after {
+  box-shadow: none;
+}
 
-
-/* ---------- HEADER ---------- */
+/* HEADER */
 .header a {
   text-transform: uppercase;
 }
@@ -31,29 +43,13 @@ h1, .h1 {
   line-height: 40px;
 }
 
+/* HOME */
 
-
-
-
-/* ---------- HOME ---------- */
-
-/* Hero */
 @media screen and (max-width: 749px) {
   .banner--large:not(.banner--mobile-bottom):not(.banner--adapt)
     .banner__content {
-      min-height: 50vh 
-    }        
-}
-
-/* AtC */
-.quick-add button {
-  font-size: 13px;
-  min-height: 40px;
-}
-
-
-.product__tax {
-  display: none;
+    min-height: 50vh;
+  }
 }
 
 .banner__content {
@@ -88,35 +84,18 @@ h1, .h1 {
   }
 }
 
-/* Featured products */
 .collection .slider-buttons {
   display: none;
 }
 
-
-
-
-
-/* ---------- PARRILLAS ---------- */
+/*  PARRILLAS  */
 .grid__item {
   margin-bottom: 20px;
 }
 
-
-
-
-
-/* ---------- FICHA DE PRODUCTO ---------- */
+/*  FdP  */
 .thumbnail-list__item.slider__slide {
   width: calc(20% - 0.6rem);
-}
-
-.product__info-wrapper .product__text{
-   font-size: 12px;
-}
-
-.product-form__input .form__label{
-  display: none;
 }
 
 .icon-with-text {
