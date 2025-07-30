@@ -23,7 +23,7 @@
         "text_pNLQAQ": {
           "type": "text",
           "settings": {
-            "text": "Select size (<a href=\"https://capitten.com/pages/size-guide\" title=\"https://capitten.com/pages/size-guide\">Size guide</a>)",
+            "text": "Select size: (<a href=\"https://capitten.com/pages/size-guide\" title=\"https://capitten.com/pages/size-guide\">Size guide</a>)",
             "text_style": "body"
           }
         },
