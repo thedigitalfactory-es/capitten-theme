@@ -38,8 +38,8 @@
           "type": "icon-with-text",
           "settings": {
             "layout": "vertical",
-            "icon_1": "star",
-            "heading_1": "4.5/5 User reviews",
+            "icon_1": "none",
+            "heading_1": "",
             "icon_2": "truck",
             "heading_2": "Free shipping to Spain",
             "icon_3": "return",
