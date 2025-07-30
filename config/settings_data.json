@@ -425,7 +425,8 @@
       "/* Featured */.collection .slider-buttons {display: none;}",
       "/* ---- PARRILLAS ---- */.grid__item {margin-bottom: 20px;}",
       "/* --- FdP --- */.thumbnail-list__item.slider__slide {width: calc(20% - 0.6rem);}",
-      ".product__info-container .icon-with-text {text-align: center;}"
+      ".product__info-container .icon-with-text {text-align: center;}",
+      ".icon-with-text__item{display: inherit;}"
     ]
   }
 }
