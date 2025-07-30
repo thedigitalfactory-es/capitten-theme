@@ -53,7 +53,7 @@ h1, .h1 {
 }
 
 .product__tax {
-  display: none;
+  display: none !important;
 }
 
 .product-form__buttons button {
@@ -127,7 +127,7 @@ h1, .h1 {
 }
 
 .product-form__input .form__label{
-  display: none !important;
+  display: none;
 }
 
 .icon-with-text {
