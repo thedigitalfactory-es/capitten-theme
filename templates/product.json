@@ -34,6 +34,18 @@
             "show_gift_card_recipient": false
           }
         },
+        "icon_with_text_8JqFLw": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "star",
+            "heading_1": "4.5/5 User reviews",
+            "icon_2": "truck",
+            "heading_2": "Free shipping to Spain",
+            "icon_3": "return",
+            "heading_3": "Free return (15 days)"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -86,6 +98,7 @@
         "price",
         "variant_picker",
         "buy_buttons",
+        "icon_with_text_8JqFLw",
         "description",
         "collapsible-row-2",
         "collapsible-row-0",
