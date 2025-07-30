@@ -122,6 +122,10 @@ h1, .h1 {
   width: calc(20% - 0.6rem);
 }
 
+.product__info-wrapper .product__text{
+  text-align: center;
+}
+
 .icon-with-text {
   text-align: center;
 }
