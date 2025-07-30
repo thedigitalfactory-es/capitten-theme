@@ -47,14 +47,10 @@ h1, .h1 {
 
 /* AtC */
 .quick-add button {
-  background-color: #09af5d;
-  color: white;
   font-size: 13px;
   min-height: 40px;
 }
-.quick-add button:after {
-  box-shadow: none;
-}
+
 
 .product__tax {
   display: none !important;
