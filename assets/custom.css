@@ -1,4 +1,4 @@
-/* COMUN */
+/* ---------- COMUN ---------- */
 h1, .h1 {
   font-size: calc(var(--font-heading-scale) * 2rem);
 }
@@ -34,7 +34,11 @@ h1, .h1 {
   box-shadow: none;
 }
 
-/* HEADER */
+
+
+
+
+/* ---------- HEADER ---------- */
 .header a {
   text-transform: uppercase;
 }
@@ -43,8 +47,11 @@ h1, .h1 {
   line-height: 40px;
 }
 
-/* HOME */
 
+
+
+
+/* ---------- HOME ---------- */
 @media screen and (max-width: 749px) {
   .banner--large:not(.banner--mobile-bottom):not(.banner--adapt)
     .banner__content {
@@ -88,12 +95,20 @@ h1, .h1 {
   display: none;
 }
 
-/*  PARRILLAS  */
+
+
+
+
+/* ---------- PARRILLAS ---------- */
 .grid__item {
   margin-bottom: 20px;
 }
 
-/*  FdP  */
+
+
+
+
+/* ---------- FdP ---------- */
 .thumbnail-list__item.slider__slide {
   width: calc(20% - 0.6rem);
 }
