@@ -59,15 +59,6 @@
             "page": ""
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "{{ product.metafields.shopify[\"footwear-material\"] | metafield_tag: field: 'label' }}",
-            "page": ""
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -101,7 +92,6 @@
         "icon_with_text_8JqFLw",
         "description",
         "collapsible-row-2",
-        "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-3",
         "share"
