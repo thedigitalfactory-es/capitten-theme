@@ -408,21 +408,21 @@
     "custom_css": [
       "/* ----- COMMON ----- */.title-wrapper {text-align: center;}",
       ".title-wrapper-with-link {display: inherit; text-align: center;}",
-      " /* --- POPUP AtC --- */.quick-add-modal .product__tax {display: none;}",
+      "/* --- POPUP AtC --- */.quick-add-modal .product__tax {display: none;}",
       ".quick-add-modal .product-form__buttons button {background-color: #09af5d; color: white;}",
       ".quick-add-modal .product-form__buttons button:after {box-shadow: none;}",
-      " /* ----- HEADER ----- */ .header a{text-transform: uppercase;}",
+      "/* ----- HEADER ----- */.header a {text-transform: uppercase;}",
       ".header .list-menu__item {line-height: 40px;}",
-      "/* ----- HOME ----- */ /* HOME · HERO · ALTO */@media screen and (max-width: 749px) {.banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50vh; }}",
-      " /* HOME · HERO · CONTENT */.banner__content {align-items: flex-end; padding: 3rem;}",
-      " /* HOME · HERO · TEXTOS */.banner__box .banner__heading {color: white; font-weight: 300;}",
+      "/* ----- HOME ----- *//* HOME · HERO · ALTO */@media screen and (max-width: 749px) {.banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 50vh; }}",
+      "/* HOME · HERO · CONTENT */.banner__content {align-items: flex-end; padding: 3rem;}",
+      "/* HOME · HERO · TEXTOS */.banner__box .banner__heading {color: white; font-weight: 300;}",
       ".banner__box .banner__text {color: white;}",
-      "@media screen and (max-width: 768px) {.banner__box .banner__heading {font-size: 16px;}.banner__box .banner__text {font-size: 24px; line-height: 30px;}}",
+      "@media screen and (max-width: 768px) {.banner__box .banner__heading {font-size: 16px; } .banner__box .banner__text {font-size: 24px; line-height: 30px; }}",
       "@media screen and (min-width: 768px) {.banner__box .banner__heading {font-size: 25px; } .banner__box .banner__text {font-size: 40px; }}",
-      " /* HOME · FEATURED */.collection .slider-buttons {display: none;}",
-      ".quick-add button {background-color: #09af5d; color: white;}",
+      "/* HOME · FEATURED */.collection .slider-buttons {display: none;}",
+      ".quick-add button {background-color: #09af5d; color: white; font-size: 12px;}",
       ".quick-add button:after {box-shadow: none;}",
-      " /* ---- PARRILLAS ---- */"
+      "/* ---- PARRILLAS ---- */"
     ]
   }
 }
