@@ -62,15 +62,6 @@
             "page": ""
           }
         },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "<p><a href=\"/pages/size-guide\" title=\"Size guide\">Size Guide</a></p>",
-            "page": ""
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
@@ -95,7 +86,6 @@
         "buy_buttons",
         "icon_with_text_8JqFLw",
         "collapsible_tab_gfTgnh",
-        "collapsible-row-2",
         "collapsible-row-3",
         "share"
       ],
