@@ -126,7 +126,7 @@ h1, .h1 {
    font-size: 12px;
 }
 
-.product__info-wrapper .product__text .form__label{
+.product-form__input .form__label
   display: none;
 }
 
