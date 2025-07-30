@@ -56,17 +56,6 @@ h1, .h1 {
   display: none;
 }
 
-.product-form__buttons button {
-  background-color: #09af5d;
-  color: white;
-}
-
-.product-form__buttons button:after {
-  box-shadow: none;
-};
-  }
-}
-
 .banner__content {
   align-items: flex-end;
   padding: 3rem;
