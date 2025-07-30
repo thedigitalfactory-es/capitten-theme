@@ -9,6 +9,29 @@
  */
 {
   "sections": {
+    "rich_text_b9EEad": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Bn4Qtw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Breadcrumb</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Bn4Qtw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -39,6 +62,7 @@
     }
   },
   "order": [
+    "rich_text_b9EEad",
     "banner",
     "product-grid"
   ]

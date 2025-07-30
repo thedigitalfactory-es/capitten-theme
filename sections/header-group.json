@@ -27,19 +27,11 @@
             "text": "Free shipping to Spain",
             "link": ""
           }
-        },
-        "announcement_wTrqVR": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_KdQmd6",
-        "announcement_wTrqVR"
+        "announcement_KdQmd6"
       ],
       "custom_css": [],
       "settings": {
