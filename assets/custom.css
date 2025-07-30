@@ -126,6 +126,10 @@ h1, .h1 {
    font-size: 12px;
 }
 
+.product__info-wrapper .product__text .form__label{
+  display: none;
+}
+
 .icon-with-text {
   text-align: center;
 }
