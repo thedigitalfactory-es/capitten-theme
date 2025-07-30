@@ -406,7 +406,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* ----- COMMON ----- */h1{font-size: calc(var(--font-heading-scale) * 2rem);}",
+      "/* ----- COMMON ----- */h1, .h1 {font-size: calc(var(--font-heading-scale) * 2rem);}",
       ".title-wrapper {text-align: center;}",
       ".title-wrapper-with-link {display: inherit; text-align: center;}",
       "/* AtC */.quick-add button {background-color: #09af5d; color: white; font-size: 13px; min-height: 40px;}",
