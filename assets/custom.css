@@ -107,11 +107,7 @@ h1, .h1 {
   width: calc(20% - 0.6rem);
 }
 
-.product__info-container {
-  text-align: center;
-}
-
-.icon-with-text {
+.product__info-container .icon-with-text{
   text-align: center;
 }
 
