@@ -111,6 +111,11 @@ h1, .h1 {
   text-align: center;
 }
 
+.product__info-container .product-form__input label  {
+  margin: 0px;
+
+}
+
 .icon-with-text .svg-wrapper {
   height: 16px;
   min-height: 16px;
