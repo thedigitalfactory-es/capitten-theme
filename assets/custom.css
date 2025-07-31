@@ -37,6 +37,10 @@ h1, .h1 {
   text-decoration: none;
 }
 
+.header__menu-item:hover {
+  text-decoration-line: none;
+}
+
 
 
 
