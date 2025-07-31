@@ -134,9 +134,14 @@ h2 {
 .product .icon-with-text .h4 {
   font-size: 12px;
 }
+
 .product .icon-with-text--vertical .icon-with-text__item {
   display: inherit;
   margin-bottom: 0px;
+}
+
+.product .h4{
+  font-weight: 400;
 }
 
 
