@@ -112,8 +112,8 @@ h1, .h1 {
 }
 
 .product__info-container .product-form__input label  {
-  margin: 3px !important;
-  padding: 3px !important;
+    margin: 3px 2px !important;
+    padding: 10px 15px !important;
 
 }
 
