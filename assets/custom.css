@@ -11,12 +11,9 @@ h1, .h1 {
   text-transform: uppercase;
 }
 
-.title-wrapper {
-  text-align: center;
-}
+
 .title-wrapper-with-link {
   display: inherit;
-  text-align: center;
 }
 
 .quick-add button {
