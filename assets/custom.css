@@ -3,14 +3,12 @@
   font-size: calc(var(--font-heading-scale) * 3rem);
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 h1, .h1 {
   font-size: calc(var(--font-heading-scale) * 2rem);
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 .title-wrapper {
