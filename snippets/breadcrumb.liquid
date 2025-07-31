@@ -1,0 +1,11 @@
+{{ 'component-breadcrumb.css' | asset_url | stylesheet_tag }}
+<nav class="breadcrumb page-width" role="navigation" aria-label="breadcrumbs">
+  <ol class="breadcrumb__list list-unstyled" role="list">
+    <li class="breadcrumb__item">
+      <a href="{{ routes.root_url }}" class="link">Inicio</a>
+    </li>
+    <li class="breadcrumb__item">
+      <span aria-current="page">{{ collection.title }}</span>
+    </li>
+  </ol>
+</nav>
