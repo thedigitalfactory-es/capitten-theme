@@ -20,15 +20,47 @@
       "type": "contact-form",
       "settings": {
         "heading": "How can we help you?",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "image_with_text_y8GC7e": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tQ6jRD": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>BARCELONA</strong></p><p>Via Augusta, 17, principal, 08006, Barcelona</p><p>.</p><p><strong>KOBE</strong></p><p>4F B&L Building, 4-1-1, Hachiman dori, Chuo-ku, Kobe – 651-0085<br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tQ6jRD"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Cappitten_appael_all_man-1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "image_with_text_y8GC7e"
   ]
 }
