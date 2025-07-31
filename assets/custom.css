@@ -87,12 +87,12 @@ h2 {
 
 
 /* Featured Products */
-.title-wrapper-with-link {
+#shopify-section-template--24554824466808__featured_collection .title-wrapper-with-link {
   display: inherit;
 }
 
 /* Collections */
-.collection .slider-buttons {
+shopify-section-template--24554824466808__featured_collection .collection .slider-buttons {
   display: none;
 }
 
