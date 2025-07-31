@@ -90,9 +90,13 @@ h2 {
   display: none;
 }
 
-/* Collectins */
+/* Collections */
 #shopify-section-template--24554824466808__collection_list_mximwp .title-wrapper-with-link {
   display: inherit;
+}
+
+#shopify-section-template--24554824466808__collection_list_mximwp a {
+  font-weight: 400;
 }
 
 
