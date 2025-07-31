@@ -69,7 +69,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "washing",
-            "content": "",
+            "content": "{{ product.metafields.shopify[\"care-instructions\"] | metafield_tag: field: 'label' }}",
             "page": ""
           }
         },
