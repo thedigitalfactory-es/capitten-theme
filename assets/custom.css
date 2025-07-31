@@ -1,5 +1,5 @@
 /* ---------- COMUN ---------- */
-h1, .h1 {
+h1, .h0, .h1 {
   font-size: calc(var(--font-heading-scale) * 2rem);
 }
 
