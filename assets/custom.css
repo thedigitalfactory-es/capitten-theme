@@ -11,6 +11,10 @@ h1, .h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  text-align: center;
+}
+
 .title-wrapper {
   text-align: center;
 }
@@ -128,4 +132,4 @@ h1, .h1 {
 .icon-with-text--vertical .icon-with-text__item {
   display: inherit;
   margin-bottom: 0px;
-} 
+}
