@@ -1,10 +1,12 @@
 /* ---------- COMUN ---------- */
 .h0 {
-  font-size: calc(var(--font-heading-scale) * 3rem);
+  font-size: calc(var(--font-heading-scale) * 4rem);
+  text-align: center;
 }
 
 h1, .h1 {
   font-size: calc(var(--font-heading-scale) * 2rem);
+  text-align: center;
 }
 
 .title-wrapper {
