@@ -64,21 +64,21 @@
             "page": ""
           }
         },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "washing",
-            "content": "{{ product.metafields.shopify[\"care-instructions\"] | metafield_tag: field: 'label' }}",
-            "page": ""
-          }
-        },
         "collapsible_tab_jke8xw": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Materials",
             "icon": "leather",
             "content": "{{ product.metafields.shopify[\"footwear-material\"] | metafield_tag: field: 'label' }}",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "washing",
+            "content": "{{ product.metafields.shopify[\"care-instructions\"] | metafield_tag: field: 'label' }}",
             "page": ""
           }
         },
@@ -97,8 +97,8 @@
         "icon_with_text_8JqFLw",
         "collapsible_tab_gfTgnh",
         "collapsible-row-2",
-        "collapsible-row-3",
         "collapsible_tab_jke8xw",
+        "collapsible-row-3",
         "share"
       ],
       "settings": {
