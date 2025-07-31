@@ -11,9 +11,12 @@ h1, .h1 {
   text-transform: uppercase;
 }
 
-
+.title-wrapper {
+  text-align: center;
+}
 .title-wrapper-with-link {
   display: inherit;
+  text-align: center;
 }
 
 .quick-add button {
@@ -102,6 +105,10 @@ h1, .h1 {
 /* ---------- FdP ---------- */
 .thumbnail-list__item.slider__slide {
   width: calc(20% - 0.6rem);
+}
+
+.product__info-container {
+  text-align: center;
 }
 
 .icon-with-text {
