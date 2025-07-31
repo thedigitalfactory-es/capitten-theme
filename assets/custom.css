@@ -11,8 +11,8 @@ h1, .h1 {
   text-transform: uppercase;
 }
 
-h2, .h2 {
-  text-align: center !important;
+h2 {
+  text-align: center;
 }
 
 .quick-add button {
@@ -42,6 +42,10 @@ h2, .h2 {
 
 
 /* ---------- HOME ---------- */
+.title-wrapper-with-link {
+  display: inherit;
+}
+
 @media screen and (max-width: 749px) {
   .banner--large:not(.banner--mobile-bottom):not(.banner--adapt)
     .banner__content {
