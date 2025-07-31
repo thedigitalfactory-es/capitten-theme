@@ -1,12 +1,14 @@
 /* ---------- COMUN ---------- */
 .h0 {
-  font-size: calc(var(--font-heading-scale) * 4rem);
+  font-size: calc(var(--font-heading-scale) * 3rem);
   text-align: center;
+  text-transform: uppercase;
 }
 
 h1, .h1 {
   font-size: calc(var(--font-heading-scale) * 2rem);
   text-align: center;
+  text-transform: uppercase;
 }
 
 .title-wrapper {
