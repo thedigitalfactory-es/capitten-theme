@@ -85,15 +85,14 @@ h2 {
     font-weight: 600;
 }
 
-
 /* Featured Products */
-#shopify-section-template--24554824466808__featured_collection .title-wrapper-with-link {
-  display: inherit;
-}
-
-/* Collections */
 shopify-section-template--24554824466808__featured_collection .collection .slider-buttons {
   display: none;
+}
+
+/* Collectins */
+shopify-section-template--24554824466808__collection_list_mximwp .title-wrapper-with-link {
+  display: inherit;
 }
 
 
