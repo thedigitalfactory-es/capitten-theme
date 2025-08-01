@@ -4,8 +4,22 @@
     <li class="breadcrumb__item">
       <a href="{{ routes.root_url }}" class="link">Inicio</a>
     </li>
-    <li class="breadcrumb__item">
-      <span aria-current="page">{{ collection.title }}</span>
-    </li>
+    {% if product %}
+      {% assign breadcrumb_collection = product.collections | first %}
+      {% if breadcrumb_collection %}
+        <li class="breadcrumb__item">
+          <a href="{{ breadcrumb_collection.url }}" class="link">
+            {{ breadcrumb_collection.title }}
+          </a>
+        </li>
+      {% endif %}
+      <li class="breadcrumb__item">
+        <span aria-current="page">{{ product.title }}</span>
+      </li>
+    {% elsif collection %}
+      <li class="breadcrumb__item">
+        <span aria-current="page">{{ collection.title }}</span>
+      </li>
+    {% endif %}
   </ol>
 </nav>
