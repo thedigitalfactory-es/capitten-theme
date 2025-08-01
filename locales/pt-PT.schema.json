@@ -1523,7 +1523,8 @@
           "options": {
             "option_1": "Nenhum(a)",
             "option_2": "Padrão",
-            "option_3": "Em massa"
+            "option_3": "Em massa",
+            "option_4": "Overlay"
           }
         }
       }

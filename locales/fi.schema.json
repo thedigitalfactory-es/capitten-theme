@@ -1523,7 +1523,8 @@
           "options": {
             "option_1": "Ei ole",
             "option_2": "Vakio",
-            "option_3": "Erä"
+            "option_3": "Erä",
+            "option_4": "Overlay"
           }
         }
       }

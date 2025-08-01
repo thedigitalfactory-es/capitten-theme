@@ -1523,7 +1523,8 @@
           "options": {
             "option_1": "Ninguno",
             "option_2": "Estándar",
-            "option_3": "Masivo"
+            "option_3": "Masivo",
+            "option_4": "Overlay"
           }
         }
       }

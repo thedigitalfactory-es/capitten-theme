@@ -1523,7 +1523,8 @@
           "options": {
             "option_1": "無",
             "option_2": "標準",
-            "option_3": "大量"
+            "option_3": "大量",
+            "option_4": "Overlay"
           }
         }
       }

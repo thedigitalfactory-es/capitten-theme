@@ -1523,7 +1523,8 @@
           "options": {
             "option_1": "없음",
             "option_2": "표준",
-            "option_3": "대량"
+            "option_3": "대량",
+            "option_4": "Overlay"
           }
         }
       }

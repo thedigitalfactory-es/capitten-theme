@@ -1523,7 +1523,8 @@
           "options": {
             "option_1": "Žádné",
             "option_2": "Standardní",
-            "option_3": "Hromadné"
+            "option_3": "Hromadné",
+            "option_4": "Overlay"
           }
         }
       }
