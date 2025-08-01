@@ -56,6 +56,10 @@ h2 {
 }
 
 /* ---------- FOOTER ---------- */
+footer auto-slider-component .slider {
+    max-height: 50vh;
+}
+
 footer .slider li img {
   height: 100%;
   width: auto;
