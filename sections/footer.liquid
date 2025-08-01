@@ -4,6 +4,7 @@
 {{ 'component-list-menu.css' | asset_url | stylesheet_tag }}
 {{ 'component-list-payment.css' | asset_url | stylesheet_tag }}
 {{ 'component-list-social.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .footer {
@@ -250,6 +251,11 @@
     {%- endunless -%}
   {%- endif -%}
 
+  {%- assign slider_blocks = section.blocks | where: 'type', 'slider_image' -%}
+  {%- if slider_blocks.size > 0 -%}
+    {% render 'footer-slider', section: section, slider_blocks: slider_blocks %}
+  {%- endif -%}
+
   <div
     class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
@@ -418,7 +424,18 @@
               "label": "Right"
             }
           ],
-          "default": "center"
+        "default": "center"
+      }
+    ]
+    },
+    {
+      "type": "slider_image",
+      "name": "Image slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
         }
       ]
     }
@@ -491,6 +508,44 @@
       "default": true,
       "label": "t:sections.footer.settings.show_policy.label",
       "info": "t:sections.footer.settings.show_policy.info"
+    },
+    {
+      "type": "header",
+      "content": "Image slider"
+    },
+    {
+      "type": "checkbox",
+      "id": "slider_auto_rotate",
+      "default": true,
+      "label": "Auto rotate slides"
+    },
+    {
+      "type": "range",
+      "id": "slider_speed",
+      "min": 3,
+      "max": 9,
+      "step": 1,
+      "unit": "s",
+      "label": "Change slides every",
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "slider_images_desktop",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "label": "Images per view on desktop",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "slider_images_mobile",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "label": "Images per view on mobile",
+      "default": 2
     },
     {
       "type": "header",
