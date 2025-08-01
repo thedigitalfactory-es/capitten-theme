@@ -1523,7 +1523,8 @@
           "options": {
             "option_1": "なし",
             "option_2": "スタンダード",
-            "option_3": "一括"
+            "option_3": "一括",
+            "option_4": "Overlay"
           }
         }
       }

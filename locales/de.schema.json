@@ -1523,7 +1523,8 @@
           "options": {
             "option_1": "Keine",
             "option_2": "Standard",
-            "option_3": "Sammelaktion"
+            "option_3": "Sammelaktion",
+            "option_4": "Overlay"
           }
         }
       }

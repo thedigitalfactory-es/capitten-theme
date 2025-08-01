@@ -1523,7 +1523,8 @@
           "options": {
             "option_1": "无",
             "option_2": "标准",
-            "option_3": "批量"
+            "option_3": "批量",
+            "option_4": "Overlay"
           }
         }
       }
