@@ -2,6 +2,19 @@ class AutoSliderComponent extends SliderComponent {
   constructor() {
     super();
     if (!this.slider) return;
+
+    this.sliderControlWrapper = this.querySelector('.slider-buttons');
+    this.enableSliderLooping = true;
+
+    if (this.sliderControlWrapper) {
+      this.sliderControlLinksArray = Array.from(
+        this.sliderControlWrapper.querySelectorAll('.slider-counter__link')
+      );
+      this.sliderControlLinksArray.forEach((link) =>
+        link.addEventListener('click', this.linkToSlide.bind(this))
+      );
+    }
+
     if (this.slider.dataset.autoplay === 'true') this.setAutoPlay();
   }
 
@@ -27,6 +40,48 @@ class AutoSliderComponent extends SliderComponent {
         ? 0
         : this.slider.scrollLeft + this.sliderItemOffset;
     this.setSlidePosition(position);
+  }
+
+  onButtonClick(event) {
+    event.preventDefault();
+    const step = event.currentTarget.dataset.step || 1;
+
+    if (event.currentTarget.name === 'next') {
+      this.slideScrollPosition = this.slider.scrollLeft + step * this.sliderItemOffset;
+      if (this.currentPage === this.sliderItemsToShow.length) {
+        this.slideScrollPosition = 0;
+      }
+    } else {
+      this.slideScrollPosition = this.slider.scrollLeft - step * this.sliderItemOffset;
+      if (this.currentPage === 1) {
+        this.slideScrollPosition = this.slider.scrollWidth - this.slider.clientWidth;
+      }
+    }
+
+    this.setSlidePosition(this.slideScrollPosition);
+  }
+
+  linkToSlide(event) {
+    event.preventDefault();
+    const targetIndex = this.sliderControlLinksArray.indexOf(event.currentTarget);
+    const slideScrollPosition =
+      this.slider.scrollLeft + this.sliderItemOffset * (targetIndex + 1 - this.currentPage);
+    this.setSlidePosition(slideScrollPosition);
+  }
+
+  update() {
+    super.update();
+    this.sliderControlButtons = this.querySelectorAll('.slider-counter__link');
+    this.prevButton.removeAttribute('disabled');
+
+    if (!this.sliderControlButtons.length) return;
+
+    this.sliderControlButtons.forEach((link) => {
+      link.classList.remove('slider-counter__link--active');
+      link.removeAttribute('aria-current');
+    });
+    this.sliderControlButtons[this.currentPage - 1].classList.add('slider-counter__link--active');
+    this.sliderControlButtons[this.currentPage - 1].setAttribute('aria-current', true);
   }
 }
 
