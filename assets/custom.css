@@ -58,6 +58,8 @@ h2 {
 /* ---------- FOOTER ---------- */
 footer auto-slider-component .slider {
     max-height: 50vh;
+    margin: 0;
+    text-align: center;
 }
 
 footer .slider li img {
