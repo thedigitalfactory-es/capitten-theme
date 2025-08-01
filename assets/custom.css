@@ -55,7 +55,11 @@ h2 {
   line-height: 40px;
 }
 
-
+/* ---------- FOOTER ---------- */
+footer .slider li img {
+  height: 100%;
+  width: auto;
+}
 
 
 
