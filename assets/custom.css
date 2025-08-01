@@ -72,6 +72,11 @@ footer .slider li img {
       width: 100%;
       padding: 1%;
   }
+
+  .footer auto-slider-component .slider.grid {
+      display: flex;
+  }
+
 }
 
 
