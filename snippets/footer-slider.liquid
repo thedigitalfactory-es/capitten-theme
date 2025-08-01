@@ -1,0 +1,65 @@
+{% comment %}
+  Renders an image slider for the footer.
+
+  Accepts:
+  - section: {Object} Footer section object
+  - slider_blocks: {Array} Blocks filtered for slider images
+
+  Usage:
+  {% render 'footer-slider', section: section, slider_blocks: section.blocks | where: 'type', 'slider_image' %}
+{% endcomment %}
+
+<auto-slider-component class="footer-image-slider slider-mobile-gutter">
+  <ul
+    id="FooterSlider-{{ section.id }}"
+    class="slider slider--everywhere grid grid--{{ section.settings.slider_images_desktop }}-col-desktop grid--{{ section.settings.slider_images_mobile }}-col-tablet-down"
+    role="list"
+    data-autoplay="{{ section.settings.slider_auto_rotate }}"
+    data-speed="{{ section.settings.slider_speed }}"
+  >
+    {%- for block in slider_blocks -%}
+      <li
+        id="FooterSlide-{{ section.id }}-{{ forloop.index }}"
+        class="grid__item slider__slide"
+        {{ block.shopify_attributes }}
+      >
+        {%- if block.settings.image != blank -%}
+          {{ block.settings.image | image_url: width: 800 | image_tag: loading: 'lazy' }}
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+  <div class="slider-buttons">
+    <button
+      type="button"
+      class="slider-button slider-button--prev"
+      name="previous"
+      aria-label="{{ 'general.slider.previous_slide' | t }}"
+      aria-controls="FooterSlider-{{ section.id }}"
+    >
+      <span class="svg-wrapper">{{ 'icon-caret.svg' | inline_asset_content }}</span>
+    </button>
+    <div class="slider-counter slider-counter--dots">
+      {%- for block in slider_blocks -%}
+        <button
+          class="slider-counter__link slider-counter__link--dots link"
+          aria-label="{{ 'general.slider.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+          aria-controls="FooterSlider-{{ section.id }}"
+        >
+          <span class="dot"></span>
+        </button>
+      {%- endfor -%}
+    </div>
+    <button
+      type="button"
+      class="slider-button slider-button--next"
+      name="next"
+      aria-label="{{ 'general.slider.next_slide' | t }}"
+      aria-controls="FooterSlider-{{ section.id }}"
+    >
+      <span class="svg-wrapper">{{ 'icon-caret.svg' | inline_asset_content }}</span>
+    </button>
+  </div>
+</auto-slider-component>
