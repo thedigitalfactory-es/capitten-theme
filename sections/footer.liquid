@@ -43,6 +43,12 @@
       assign only_empty_brand = true
     endif
   -%}
+
+  {%- assign slider_blocks = section.blocks | where: 'type', 'slider_image' -%}
+  {%- if slider_blocks.size > 0 -%}
+    {% render 'footer-slider', section: section, slider_blocks: slider_blocks %}
+  {%- endif -%}
+
   {%- if section.blocks.size > 0
     or section.settings.newsletter_enable
     or section.settings.show_social
@@ -249,11 +255,6 @@
         </div>
       </div>
     {%- endunless -%}
-  {%- endif -%}
-
-  {%- assign slider_blocks = section.blocks | where: 'type', 'slider_image' -%}
-  {%- if slider_blocks.size > 0 -%}
-    {% render 'footer-slider', section: section, slider_blocks: slider_blocks %}
   {%- endif -%}
 
   <div
