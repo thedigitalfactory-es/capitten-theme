@@ -1,118 +1,93 @@
-class AutoSliderComponent extends SliderComponent {
+class FooterSlider extends HTMLElement {
   constructor() {
     super();
+  }
+
+  connectedCallback() {
+    this.slider = this.querySelector('[id^="Slider-"]');
     if (!this.slider) return;
 
-    this.sliderControlWrapper = this.querySelector('.slider-buttons');
-    this.enableSliderLooping = true;
+    this.sliderItems = Array.from(this.querySelectorAll('[id^="Slide-"]'));
+    this.dots = Array.from(this.querySelectorAll('.slider-counter__link'));
+    this.currentIndex = 0;
 
-    if (!this.nextButton) {
-      this.initPages();
-      const resizeObserver = new ResizeObserver(() => this.initPages());
-      resizeObserver.observe(this.slider);
-      this.slider.addEventListener('scroll', this.update.bind(this));
+    this.updateMetrics();
+    this.slider.addEventListener('scroll', this.onScroll.bind(this));
+    window.addEventListener('resize', this.updateMetrics.bind(this));
+
+    this.dots.forEach((dot, index) => {
+      dot.addEventListener('click', (event) => {
+        event.preventDefault();
+        this.goToSlide(index);
+      });
+    });
+
+    const autoplay = this.slider.dataset.autoplay === 'true';
+    this.speed = parseInt(this.slider.dataset.speed || 5) * 1000;
+    if (autoplay) {
+      this.play();
+      this.addEventListener('mouseover', this.pause.bind(this));
+      this.addEventListener('mouseleave', this.play.bind(this));
     }
 
-    if (this.sliderControlWrapper) {
-      this.sliderControlLinksArray = Array.from(
-        this.sliderControlWrapper.querySelectorAll('.slider-counter__link')
-      );
-      this.sliderControlLinksArray.forEach((link) =>
-        link.addEventListener('click', this.linkToSlide.bind(this))
-      );
+    this.updateDots();
+  }
+
+  updateMetrics() {
+    if (this.sliderItems.length > 1) {
+      this.slideOffset = this.sliderItems[1].offsetLeft - this.sliderItems[0].offsetLeft;
+    } else if (this.sliderItems.length === 1) {
+      this.slideOffset = this.sliderItems[0].clientWidth;
+    } else {
+      this.slideOffset = 0;
     }
-
-    this.setInitialSlide();
-
-    if (this.slider.dataset.autoplay === 'true') this.setAutoPlay();
+    this.goToSlide(this.currentIndex);
   }
 
-  setInitialSlide() {
-    if (!this.sliderItemOffset || !this.sliderItemsToShow.length) return;
-    this.currentPage = Math.ceil(this.sliderItemsToShow.length / 2);
-    const position = (this.currentPage - 1) * this.sliderItemOffset;
-    this.setSlidePosition(position);
-    this.update();
+  onScroll() {
+    if (!this.slideOffset) return;
+    const index = Math.round(this.slider.scrollLeft / this.slideOffset);
+    if (index !== this.currentIndex) {
+      this.currentIndex = index;
+      this.updateDots();
+    }
   }
 
-  setAutoPlay() {
-    this.autoplaySpeed = this.slider.dataset.speed * 1000;
-    this.addEventListener('mouseover', this.pause.bind(this));
-    this.addEventListener('mouseleave', this.play.bind(this));
-    this.play();
+  goToSlide(index) {
+    this.currentIndex = index;
+    this.slider.scrollTo({
+      left: this.slideOffset * index,
+      behavior: 'smooth',
+    });
+    this.updateDots();
+  }
+
+  nextSlide() {
+    const nextIndex = (this.currentIndex + 1) % this.sliderItems.length;
+    this.goToSlide(nextIndex);
+  }
+
+  updateDots() {
+    if (!this.dots.length) return;
+    this.dots.forEach((dot) => {
+      dot.classList.remove('slider-counter__link--active');
+      dot.removeAttribute('aria-current');
+    });
+    const active = this.dots[this.currentIndex];
+    if (active) {
+      active.classList.add('slider-counter__link--active');
+      active.setAttribute('aria-current', true);
+    }
   }
 
   play() {
-    clearInterval(this.autoplay);
-    this.autoplay = setInterval(this.autoRotateSlides.bind(this), this.autoplaySpeed);
+    this.pause();
+    this.autoplayTimer = setInterval(() => this.nextSlide(), this.speed);
   }
 
   pause() {
-    clearInterval(this.autoplay);
-  }
-
-  autoRotateSlides() {
-    const position =
-      this.currentPage === this.totalPages
-        ? 0
-        : this.slider.scrollLeft + this.sliderItemOffset;
-    this.setSlidePosition(position);
-  }
-
-  onButtonClick(event) {
-    event.preventDefault();
-    const step = event.currentTarget.dataset.step || 1;
-
-    if (event.currentTarget.name === 'next') {
-      this.slideScrollPosition = this.slider.scrollLeft + step * this.sliderItemOffset;
-      if (this.currentPage === this.sliderItemsToShow.length) {
-        this.slideScrollPosition = 0;
-      }
-    } else {
-      this.slideScrollPosition = this.slider.scrollLeft - step * this.sliderItemOffset;
-      if (this.currentPage === 1) {
-        this.slideScrollPosition = this.slider.scrollWidth - this.slider.clientWidth;
-      }
-    }
-
-    this.setSlidePosition(this.slideScrollPosition);
-  }
-
-  linkToSlide(event) {
-    event.preventDefault();
-    const targetIndex = this.sliderControlLinksArray.indexOf(event.currentTarget);
-    const slideScrollPosition =
-      this.slider.scrollLeft + this.sliderItemOffset * (targetIndex + 1 - this.currentPage);
-    this.setSlidePosition(slideScrollPosition);
-  }
-
-  update() {
-    if (!this.slider) return;
-
-    const previousPage = this.currentPage;
-    this.currentPage = Math.round(this.slider.scrollLeft / this.sliderItemOffset) + 1;
-
-    if (this.currentPage != previousPage) {
-      this.dispatchEvent(
-        new CustomEvent('slideChanged', {
-          detail: {
-            currentPage: this.currentPage,
-            currentElement: this.sliderItemsToShow[this.currentPage - 1],
-          },
-        })
-      );
-    }
-
-    this.sliderControlButtons = this.querySelectorAll('.slider-counter__link');
-    if (!this.sliderControlButtons.length) return;
-
-    this.sliderControlButtons.forEach((link) => {
-      link.classList.remove('slider-counter__link--active');
-      link.removeAttribute('aria-current');
-    });
-    this.sliderControlButtons[this.currentPage - 1].classList.add('slider-counter__link--active');
-    this.sliderControlButtons[this.currentPage - 1].setAttribute('aria-current', true);
+    clearInterval(this.autoplayTimer);
   }
 }
 
-customElements.define('auto-slider-component', AutoSliderComponent);
+customElements.define('footer-slider', FooterSlider);
