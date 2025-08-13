@@ -56,24 +56,24 @@ h2 {
 }
 
 /* ---------- FOOTER ---------- */
-footer auto-slider-component .slider {
+footer footer-slider .slider {
     max-height: 50vh;
     margin: 0;
     text-align: center;
 }
 
-footer .slider li img {
+footer footer-slider .slider li img {
   height: 100%;
   width: auto;
 }
 @media screen and (max-width: 749px) {
-  footer .slider li img {
+  footer footer-slider .slider li img {
       height: auto;
       width: 100%;
       padding: 1%;
   }
 
-  .footer auto-slider-component .slider.grid {
+  .footer footer-slider .slider.grid {
       display: flex;
   }
 

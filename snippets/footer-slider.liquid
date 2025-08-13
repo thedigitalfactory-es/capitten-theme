@@ -9,7 +9,7 @@
   {% render 'footer-slider', section: section, slider_blocks: section.blocks | where: 'type', 'slider_image' %}
 {% endcomment %}
 
-<auto-slider-component class="footer-image-slider slider-mobile-gutter">
+<footer-slider class="footer-image-slider slider-mobile-gutter">
   <ul
     id="Slider-{{ section.id }}"
     class="slider slider--everywhere grid grid--{{ section.settings.slider_images_desktop }}-col-desktop grid--{{ section.settings.slider_images_mobile }}-col-tablet-down"
@@ -32,15 +32,6 @@
     {%- endfor -%}
   </ul>
   <div class="slider-buttons">
-    <button
-      type="button"
-      class="slider-button slider-button--prev"
-      name="previous"
-      aria-label="{{ 'general.slider.previous_slide' | t }}"
-      aria-controls="Slider-{{ section.id }}"
-    >
-      <span class="svg-wrapper">{{ 'icon-caret.svg' | inline_asset_content }}</span>
-    </button>
     <div class="slider-counter slider-counter--dots">
       {%- for block in slider_blocks -%}
         <button
@@ -52,14 +43,5 @@
         </button>
       {%- endfor -%}
     </div>
-    <button
-      type="button"
-      class="slider-button slider-button--next"
-      name="next"
-      aria-label="{{ 'general.slider.next_slide' | t }}"
-      aria-controls="Slider-{{ section.id }}"
-    >
-      <span class="svg-wrapper">{{ 'icon-caret.svg' | inline_asset_content }}</span>
-    </button>
   </div>
-</auto-slider-component>
+</footer-slider>
