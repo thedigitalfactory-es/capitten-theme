@@ -129,6 +129,16 @@ footer .slider li img {
   display: none;
 }
 
+.quick-add--overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0 1rem 1rem;
+  z-index: 2;
+}
+
 /* Collections */
 #shopify-section-template--24554824466808__collection_list_mximwp .title-wrapper-with-link {
   display: inherit;
