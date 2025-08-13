@@ -6,6 +6,13 @@ class AutoSliderComponent extends SliderComponent {
     this.sliderControlWrapper = this.querySelector('.slider-buttons');
     this.enableSliderLooping = true;
 
+    if (!this.nextButton) {
+      this.initPages();
+      const resizeObserver = new ResizeObserver(() => this.initPages());
+      resizeObserver.observe(this.slider);
+      this.slider.addEventListener('scroll', this.update.bind(this));
+    }
+
     if (this.sliderControlWrapper) {
       this.sliderControlLinksArray = Array.from(
         this.sliderControlWrapper.querySelectorAll('.slider-counter__link')
@@ -15,7 +22,17 @@ class AutoSliderComponent extends SliderComponent {
       );
     }
 
+    this.setInitialSlide();
+
     if (this.slider.dataset.autoplay === 'true') this.setAutoPlay();
+  }
+
+  setInitialSlide() {
+    if (!this.sliderItemOffset || !this.sliderItemsToShow.length) return;
+    this.currentPage = Math.ceil(this.sliderItemsToShow.length / 2);
+    const position = (this.currentPage - 1) * this.sliderItemOffset;
+    this.setSlidePosition(position);
+    this.update();
   }
 
   setAutoPlay() {
@@ -70,10 +87,23 @@ class AutoSliderComponent extends SliderComponent {
   }
 
   update() {
-    super.update();
-    this.sliderControlButtons = this.querySelectorAll('.slider-counter__link');
-    this.prevButton.removeAttribute('disabled');
+    if (!this.slider) return;
 
+    const previousPage = this.currentPage;
+    this.currentPage = Math.round(this.slider.scrollLeft / this.sliderItemOffset) + 1;
+
+    if (this.currentPage != previousPage) {
+      this.dispatchEvent(
+        new CustomEvent('slideChanged', {
+          detail: {
+            currentPage: this.currentPage,
+            currentElement: this.sliderItemsToShow[this.currentPage - 1],
+          },
+        })
+      );
+    }
+
+    this.sliderControlButtons = this.querySelectorAll('.slider-counter__link');
     if (!this.sliderControlButtons.length) return;
 
     this.sliderControlButtons.forEach((link) => {
