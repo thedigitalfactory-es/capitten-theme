@@ -137,6 +137,11 @@ footer footer-slider .slider li img {
   margin: 0;
   padding: 0 1rem 1rem;
   z-index: 2;
+  pointer-events: none;
+}
+
+.quick-add--overlay .quick-add__submit {
+  pointer-events: auto;
 }
 
 /* Collections */
