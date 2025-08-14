@@ -154,6 +154,10 @@ footer footer-slider .slider li img {
   align-items: center;
 }
 
+.card--standard .card__heading a:after{
+  content: none;
+}
+
 /* Collections */
 #shopify-section-template--24554824466808__collection_list_mximwp .title-wrapper-with-link {
   display: inherit;
