@@ -208,3 +208,8 @@ footer footer-slider .slider li img {
 #shopify-section-template--24554824434040__cart-items .underlined-link {
   font-size: 12px;
 }
+
+.quick-add .button:after, .quick-add .shopify-challenge__button:after, 
+.quick-add .customer button:after, .quick-add .shopify-payment-button__button--unbranded:after{
+  box-shadow: none;
+}
