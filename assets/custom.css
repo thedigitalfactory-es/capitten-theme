@@ -54,6 +54,10 @@ h2 {
   content: none;
 }
 
+.quick-add-modal__content-info .breadcrumb{
+      display: none;
+    }
+
 .quick-add-modal__content-info .icon-with-text{
       display: none;
 }
@@ -63,10 +67,7 @@ h2 {
 }
 
 @media screen and (max-width: 749px) {
-    .quick-add-modal__content-info .breadcrumb{
-      display: none;
-    }
-
+  
     .quick-add-modal__content-info .product__title{
       display: none;
     }
@@ -75,15 +76,9 @@ h2 {
       display: none;
     }
 
-    .quick-add-modal__content-info .icon-with-text{
-      display: none;
-    }
-
     .quick-add-modal__content-info .form__label{
       display: none;
     }
-   
-
     
 }
 
