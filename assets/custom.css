@@ -79,6 +79,11 @@ h2 {
       display: none;
     }
 
+    .quick-add-modal__content-info .form__label{
+      display: none;
+    }
+   
+
     
 }
 
