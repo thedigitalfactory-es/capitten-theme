@@ -90,6 +90,8 @@ footer{
 
 .footer__content-top, .footer__content-bottom{
   background-color: black !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
