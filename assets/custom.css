@@ -59,6 +59,14 @@ h2 {
   display: none;
 }
 
+.quick-add-modal__content-info .product__title{
+  display: none;
+}
+
+.quick-add-modal__content-info .price{
+  display: none;
+}
+
 .product__tax {
   display: none;
 }
