@@ -85,10 +85,14 @@ footer footer-slider .slider li img {
 }
 
 footer{
-
-  background-color: red;
-
+  background-color: white !important;
 }
+
+.footer__content-top, .footer__content-bottom{
+  background-color: black !important;
+}
+
+
 
 
 
