@@ -55,6 +55,10 @@ h2 {
   content: none;
 }
 
+.quick-add-modal__content-info .breadcrumb{
+  display: none;
+}
+
 .product__tax {
   display: none;
 }
