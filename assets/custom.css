@@ -67,6 +67,12 @@ h2 {
     .quick-add-modal__content-info .price{
       display: none;
     }
+
+    .quick-add-modal__content-info .icon-with-text{
+      display: none;
+    }
+
+    
 }
 
 
