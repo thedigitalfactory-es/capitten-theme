@@ -9,7 +9,7 @@
   {% render 'footer-slider', section: section, slider_blocks: section.blocks | where: 'type', 'slider_image' %}
 {% endcomment %}
 
-<div class="footer-image-slider slider-mobile-gutter">
+<footer-slider class="footer-image-slider slider-mobile-gutter">
   <ul
     id="Slider-{{ section.id }}"
     class="slider slider--everywhere grid grid--{{ section.settings.slider_images_desktop }}-col-desktop grid--{{ section.settings.slider_images_mobile }}-col-tablet-down"
@@ -44,4 +44,4 @@
       {%- endfor -%}
     </div>
   </div>
-</div>
+</footer-slider>
