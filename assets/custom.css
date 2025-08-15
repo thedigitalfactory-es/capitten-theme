@@ -26,6 +26,35 @@ h2 {
   min-height: 40px;
 }
 
+.quick-add--overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0 1rem 1rem;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.quick-add--overlay .quick-add__submit {
+  pointer-events: auto;
+  width: 4rem;
+  min-width: 4rem;
+  height: 4rem;
+  min-height: 4rem;
+  padding: 0;
+  border-radius: 50%;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--standard .card__heading a:after{
+  content: none;
+}
+
 .product__tax {
   display: none;
 }
@@ -136,35 +165,6 @@ footer footer-slider .slider li img {
 /* Featured Products */
 #shopify-section-template--24554824466808__featured_collection .collection .slider-buttons {
   display: none;
-}
-
-.quick-add--overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  margin: 0;
-  padding: 0 1rem 1rem;
-  z-index: 2;
-  pointer-events: none;
-}
-
-.quick-add--overlay .quick-add__submit {
-  pointer-events: auto;
-  width: 4rem;
-  min-width: 4rem;
-  height: 4rem;
-  min-height: 4rem;
-  padding: 0;
-  border-radius: 50%;
-  margin-left: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card--standard .card__heading a:after{
-  content: none;
 }
 
 /* Collections */
