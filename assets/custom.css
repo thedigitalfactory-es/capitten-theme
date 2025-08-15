@@ -19,8 +19,7 @@ h2 {
 
 
 
-/* ---------- COMUN ---------- */
-
+/* ----------   QUICK ADD TO CART ---------- */
 .quick-add button {
   font-size: 13px;
   min-height: 40px;
@@ -67,6 +66,11 @@ h2 {
   display: none;
 }
 
+
+
+
+
+/* ---------- COMUN ---------- */
 .product__tax {
   display: none;
 }
