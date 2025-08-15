@@ -54,6 +54,13 @@ h2 {
   content: none;
 }
 
+.quick-add-modal__content-info .icon-with-text{
+      display: none;
+}
+
+.quick-add-modal__content-info .link product__view-details{
+    text-align: center;
+}
 
 @media screen and (max-width: 749px) {
     .quick-add-modal__content-info .breadcrumb{
