@@ -84,21 +84,8 @@ footer footer-slider .slider li img {
 
 }
 
-footer{
-  background-color: red !important;
-}
-
-.footer__content-top, .footer__content-bottom{
-  background-color: black !important;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-footer .footer-image-slider{
-  background-color: red !important;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
+.footer-image-slider{
+  background-color: green !important;
 }
 
 
