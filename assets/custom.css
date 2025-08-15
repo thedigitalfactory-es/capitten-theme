@@ -54,18 +54,20 @@ h2 {
   content: none;
 }
 
-.quick-add-modal__content-info .breadcrumb{
-  display: none;
-}
 
-.quick-add-modal__content-info .product__title{
-  display: none;
-}
+@media screen and (max-width: 749px) {
+    .quick-add-modal__content-info .breadcrumb{
+      display: none;
+    }
 
-.quick-add-modal__content-info .price{
-  display: none;
-}
+    .quick-add-modal__content-info .product__title{
+      display: none;
+    }
 
+    .quick-add-modal__content-info .price{
+      display: none;
+    }
+}
 
 
 
