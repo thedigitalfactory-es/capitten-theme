@@ -131,6 +131,11 @@ footer footer-slider .slider li img {
   height: 100%;
   width: auto;
 }
+
+footer .grid__item {
+  padding: 0px !important;
+}
+
 @media screen and (max-width: 749px) {
   footer footer-slider .slider li img {
       height: auto;
