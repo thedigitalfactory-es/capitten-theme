@@ -151,9 +151,12 @@ footer footer-slider .slider li img {
       display: flex;
   }
 
-  .footer-block__details-content li{
+  footer .footer-block__details-content li{
     text-align: center !important;
   }
+
+  footer .list-menu__item{
+    display: inherit;
 
 }
 
