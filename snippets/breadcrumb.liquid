@@ -5,7 +5,11 @@
       <a href="{{ routes.root_url }}" class="link">Inicio</a>
     </li>
     {% if product %}
-      {% assign breadcrumb_collection = product.collections | first %}
+      {% if collection %}
+        {% assign breadcrumb_collection = collection %}
+      {% else %}
+        {% assign breadcrumb_collection = product.collections | first %}
+      {% endif %}
       {% if breadcrumb_collection %}
         <li class="breadcrumb__item">
           <a href="{{ breadcrumb_collection.url }}" class="link">
