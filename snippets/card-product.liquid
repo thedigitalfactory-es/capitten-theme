@@ -57,9 +57,9 @@
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
       >
+        <a href="{{ card_product.url }}" class="full-unstyled-link">
         {%- if card_product.featured_media -%}
           <div class="card__media{% if image_shape and image_shape != 'default' %} shape--{{ image_shape }} color-{{ settings.card_color_scheme }} gradient{% endif %}">
-            <a href="{{ card_product.url }}" class="full-unstyled-link">
               <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
@@ -105,7 +105,6 @@
                 >
               {%- endif -%}
               </div>
-            </a>
           </div>
         {%- endif -%}
         <div class="card__content">
@@ -144,6 +143,7 @@
             {%- endif -%}
           </div>
         </div>
+        </a>
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
         {% if quick_add == 'standard' %}
           <div class="quick-add quick-add--overlay no-js-hidden">
