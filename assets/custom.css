@@ -151,10 +151,6 @@ footer footer-slider .slider li img {
       display: flex;
   }
 
-   footer .footer__blocks-wrapper a{
-    text-align: center;
-  }
-
 }
 
 @media screen and (min-width: 749px) {
