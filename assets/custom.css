@@ -161,7 +161,7 @@ footer footer-slider .slider li img {
   footer .footer__blocks-wrapper{
     flex-wrap: nowrap;
     justify-content: center;
-    /* text-align: center; uncomment to center list items */
+    text-align: center; 
   }
 
 }
