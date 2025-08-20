@@ -177,7 +177,9 @@ footer footer-slider .slider li img {
 
 
 /* ---------- HOME ---------- */
-
+.media>img{
+  object-position: center center !important;
+}
 
 @media screen and (max-width: 749px) {
   #shopify-section-template--24554824466808__image_banner .banner--large:not(.banner--mobile-bottom):not(.banner--adapt)
