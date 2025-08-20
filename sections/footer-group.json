@@ -38,18 +38,6 @@
             "image": "shopify://shop_images/crea018capitten-4.jpg"
           }
         },
-        "slider_image_MRekBM": {
-          "type": "slider_image",
-          "settings": {
-            "image": "shopify://shop_images/ed6908835f062ca269b66b3d7b7a1a24.jpg"
-          }
-        },
-        "slider_image_mBALtG": {
-          "type": "slider_image",
-          "settings": {
-            "image": "shopify://shop_images/ed6908835f062ca269b66b3d7b7a1a24.jpg"
-          }
-        },
         "footer-1": {
           "type": "link_list",
           "settings": {
@@ -63,8 +51,6 @@
         "slider_image_fdD4fY",
         "slider_image_9wxUi8",
         "slider_image_6zYbJP",
-        "slider_image_MRekBM",
-        "slider_image_mBALtG",
         "footer-1"
       ],
       "settings": {
