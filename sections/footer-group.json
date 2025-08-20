@@ -79,7 +79,7 @@
         "show_policy": true,
         "slider_auto_rotate": true,
         "slider_speed": 5,
-        "slider_images_desktop": 3,
+        "slider_images_desktop": 4,
         "slider_images_mobile": 2,
         "margin_top": 60,
         "padding_top": 36,
