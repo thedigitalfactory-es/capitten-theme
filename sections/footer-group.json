@@ -78,7 +78,7 @@
         "payment_enable": true,
         "show_policy": true,
         "slider_auto_rotate": true,
-        "slider_speed": 5,
+        "slider_speed": 3,
         "slider_images_desktop": 4,
         "slider_images_mobile": 2,
         "margin_top": 60,
