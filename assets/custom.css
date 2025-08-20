@@ -151,7 +151,7 @@ footer footer-slider .slider li img {
       display: flex;
   }
 
-  .footer-block__details-content {
+  .footer-block__details-content a{
     text-align: center !important;
   }
 
