@@ -11,7 +11,7 @@
         {% assign breadcrumb_collection = product.collections | first %}
       {% endif %}
       {% if breadcrumb_collection %}
-        <li class="breadcrumb__item">
+        <li class="breadcrumb__item" data-collection="{{ collection }}">
           <a href="{{ breadcrumb_collection.url }}" class="link">
             {{ breadcrumb_collection.title }}
           </a>
