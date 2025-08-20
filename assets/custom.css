@@ -140,12 +140,6 @@ footer footer-slider .slider li img {
   width: auto;
 }
 
-footer .footer__blocks-wrapper{
-    flex-wrap: nowrap;
-    justify-content: center;
-    text-align: center; 
-}
-
 @media screen and (max-width: 749px) {
   footer footer-slider .slider li img {
       height: auto;
@@ -164,8 +158,16 @@ footer .footer__blocks-wrapper{
     padding-bottom: 40px;
   }
 
+  footer .footer__blocks-wrapper{
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
 }
 
+footer .footer__blocks-wrapper{
+    text-align: center; 
+}
 
 
 
