@@ -161,13 +161,11 @@ footer footer-slider .slider li img {
   footer .footer__blocks-wrapper{
     flex-wrap: nowrap;
     justify-content: center;
+    text-align: center;
   }
 
 }
 
-footer .footer__blocks-wrapper{
-    text-align: center; 
-}
 
 
 
