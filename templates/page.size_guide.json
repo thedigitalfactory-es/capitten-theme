@@ -34,7 +34,7 @@
             "heading": "ADULT HOODIES / TEES",
             "icon": "check_mark",
             "row_content": "<p><br/><br/></p>",
-            "page": ""
+            "page": "size-guide-adult-hoodies-tees"
           }
         },
         "collapsible_row_yX7PV6": {
@@ -43,7 +43,7 @@
             "heading": "ADULT BOTTOM",
             "icon": "check_mark",
             "row_content": "",
-            "page": ""
+            "page": "size-guide-adult-bottom"
           }
         },
         "collapsible_row_VtqnN9": {
@@ -52,7 +52,7 @@
             "heading": "ONE IC",
             "icon": "check_mark",
             "row_content": "",
-            "page": ""
+            "page": "size-guide-one-ic"
           }
         }
       },
