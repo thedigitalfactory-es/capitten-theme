@@ -1,0 +1,169 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_tDiM8e": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_g6PaxQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CONTACT CAPITTEN",
+            "icon": "check_mark",
+            "row_content": "<p>To contact us, simply send an email to <a href=\"mailto:hello@capitten.com\">hello@capitten.com</a>. Our customer service team is committed to responding within 24 hours on business days (Monday to Friday, from 9:00 AM to 6:00 PM). We value your inquiries and will be happy to assist you as soon as possible.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xBHdXf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW CAN I BECOME A CAPITTEN DISTRIBUTOR?",
+            "icon": "check_mark",
+            "row_content": "<p>Interested in joining our network of distributors? Email us at <a href=\"mailto: hello@capitten.com\" target=\"_blank\">hello@capitten.com</a>to learn more about how to become part of our growing community of partners.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8mNh4i": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "INTERNATIONAL AVAILABILITY",
+            "icon": "check_mark",
+            "row_content": "<p>At Capitten, we are working to expand our legacy worldwide. Stay informed by subscribing to our newsletter or following us on social media for the latest updates on when we'll be available in your country.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WAmKnB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW LONG WILL IT TAKE FOR MY ORDER TO ARRIVE?",
+            "icon": "check_mark",
+            "row_content": "<p>Once your order is ready, you will receive a confirmation email with the details and a tracking link. From that moment, delivery will take a maximum of 6 business days.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yX7PV6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHAT ARE THE REQUIREMENTS TO RETURN A PRODUCT?",
+            "icon": "check_mark",
+            "row_content": "<p>You have 30 calendar days from the date of receipt to initiate a return. The product must be unworn and in perfect condition. It should also retain the original tags (clothing/footwear) and be returned in its original packaging.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_g6PaxQ",
+        "collapsible_row_xBHdXf",
+        "collapsible_row_8mNh4i",
+        "collapsible_row_WAmKnB",
+        "collapsible_row_yX7PV6"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "CUSTOMER SERVICE",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_N4G8cQ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_b96a7K": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW TO CHOOSE YOUR SHOES",
+            "icon": "check_mark",
+            "row_content": "<p>1. Select the appropriate shoes for their intended use The size, structure, and materials of the shoes vary depending on their purpose. Make sure to choose the shoes that best suit your activity.</p><p>2. Try on both shoes Each foot is different, and many people have varying sizes between their left and right feet. Be sure to try on both shoes before purchasing. Once at home, try them on again before wearing them to ensure maximum comfort.</p><p><em>Note:</em> We cannot accept returns of worn shoes, so it is important to test them thoroughly before using them outside.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WNYPtH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SHOE LIFESPAN",
+            "icon": "check_mark",
+            "row_content": "<p>Shoes, as semi-durable goods, wear out with use and may also deteriorate over time, even if they are not used. Factors such as temperature or humidity can accelerate this process. If you have shoes stored for an extended period, be sure to check the soles before wearing them. If you notice cracks or damage, do not use the shoes.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NCLH4a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "USAGE PRECAUTIONS",
+            "icon": "check_mark",
+            "row_content": "<p>Each type of sole is designed for specific surfaces. Wearing shoes on unsuitable surfaces can accelerate sole wear or even cause injuries. Additionally, wearing worn-out soles increases the risk of accidents. Please note that we are not liable for damages if the product is not used for its intended purpose.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HQJBhx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SHOE CARE",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Do not machine wash your shoes.</li><li>Let your shoes dry naturally, avoiding direct sunlight and heat sources such as stoves or radiators.</li><li>Maintain the shape of the shoes while drying, in a shaded and well-ventilated area. Improper drying can lead to the growth of mould, which is difficult to remove completely.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aPAFGq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CARE BASED ON MATERIAL",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Natural leather (leather surface):<br/>Clean with a soft brush and dry cloth. Apply a shoe cream matching the leather colour and polish with a brush or cloth.</li><li>Natural leather (suede, nubuck, other types):<br/>Use a special brush to lift the fibres and remove dirt.</li><li>Synthetic leather and synthetic fibres:<br/>Clean with a soft brush or damp cloth.</li></ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_b96a7K",
+        "collapsible_row_WNYPtH",
+        "collapsible_row_NCLH4a",
+        "collapsible_row_HQJBhx",
+        "collapsible_row_aPAFGq"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "INSTRUCTION MANUAL",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_tDiM8e",
+    "collapsible_content_N4G8cQ"
+  ]
+}
