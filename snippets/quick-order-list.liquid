@@ -20,7 +20,7 @@
     id="{{ section.id }}-{{ product.id }}"
     data-section="{{ section.id }}"
     data-product-id="{{ product.id }}"
-    data-url="{{ product.url }}"
+    data-url="{{ product.url | within: collection }}"
   >
     <form
       action="{{ routes.cart_update_url }}"

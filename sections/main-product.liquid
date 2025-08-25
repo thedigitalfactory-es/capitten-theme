@@ -4,7 +4,7 @@
   data-section="{{ section.id }}"
   data-product-id="{{ product.id }}"
   data-update-url="true"
-  data-url="{{ product.url }}"
+  data-url="{{ product.url | within: collection }}"
   {% if section.settings.image_zoom == 'hover' %}
     data-zoom-on-hover
   {% endif %}
@@ -100,7 +100,7 @@
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
                   <h1>{{ product.title | escape }}</h1>
-                  <a href="{{ product.url }}" class="product__title">
+                  <a href="{{ product.url | within: collection }}" class="product__title">
                     <h2 class="h1">
                       {{ product.title | escape }}
                     </h2>
@@ -263,7 +263,7 @@
                     </span>
                   </label>
                   <div class="price-per-item__container">
-                    <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
+                    <quantity-input class="quantity" data-url="{{ product.url | within: collection }}" data-section="{{ section.id }}">
                       <button class="quantity__button" name="minus" type="button">
                         <span class="visually-hidden">
                           {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
@@ -677,7 +677,7 @@
                 {% render 'icon-with-text', block: block %}
             {%- endcase -%}
           {%- endfor -%}
-          <a href="{{ product.url }}" class="link product__view-details animate-arrow">
+          <a href="{{ product.url | within: collection }}" class="link product__view-details animate-arrow">
             {{ 'products.product.view_full_details' | t }}
             {{- 'icon-arrow.svg' | inline_asset_content -}}
           </a>

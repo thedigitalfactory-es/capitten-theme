@@ -48,7 +48,7 @@
   {%- endcapture -%}
 
   {%- capture input_dataset -%}
-    data-product-url="{{ value.product_url }}"
+    data-product-url="{{ value.product_url | within: collection }}"
     data-option-value-id="{{ value.id }}"
   {%- endcapture -%}
 
