@@ -98,6 +98,9 @@ h2 {
   word-break: normal;
   border-radius: 0px;
 }
+.card--media{
+  padding: 0px;
+}
 
 
 /* ---------- COMUN ---------- */
