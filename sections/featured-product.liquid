@@ -9,7 +9,7 @@
   data-section="{{ section.id }}"
   data-product-id="{{ product.id }}"
   data-update-url="false"
-  data-url="{{ product.url }}"
+  data-url="{{ product.url | within: collection }}"
   {% if section.settings.image_zoom == 'hover' %}
     data-zoom-on-hover
   {% endif %}
@@ -90,7 +90,7 @@
             id="ProductInfo-{{ section.id }}"
             class="product__info-container"
             data-section="{{ section.id }}"
-            data-url="{{ product.url }}"
+            data-url="{{ product.url | within: collection }}"
           >
             {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
@@ -454,7 +454,7 @@
               {% if product == blank %}
                 role="link" aria-disabled="true"
               {% else %}
-                href="{{ product.url }}"
+                href="{{ product.url | within: collection }}"
               {% endif %}
               class="link product__view-details animate-arrow"
             >

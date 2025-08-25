@@ -137,7 +137,7 @@
                   aria-selected="false"
                 >
                   <a
-                    href="{{ product.url }}"
+                    href="{{ product.url | within: collection }}"
                     class="predictive-search__item predictive-search__item--link-with-thumbnail link link--text"
                     tabindex="-1"
                   >
