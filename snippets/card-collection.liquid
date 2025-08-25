@@ -30,7 +30,7 @@
     assign card_style = settings.collection_card_style
   endif
 -%}
-<a href="{{ card_collection.url }}" class="full-unstyled-link">
+<a href="{{ card_collection.url }}" class="full-unstyled-link click-overlay">
 <div class="card-wrapper animate-arrow {% if wrapper_class and wrapper_class != 'none' %}{{ wrapper_class }}{% else %}collection-card-wrapper{% endif %}">
   <div
     class="
@@ -48,7 +48,6 @@
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
       {%- if card_collection.featured_image -%}
-        <a href="{{ card_collection.url }}" class="full-unstyled-link">
           <div class="card__media">
             <div class="media media--transparent media--hover-effect">
               <img
@@ -76,7 +75,6 @@
             >
             </div>
           </div>
-        </a>
       {%- endif -%}
       {%- if card_collection == blank -%}
         <div class="card__media">
