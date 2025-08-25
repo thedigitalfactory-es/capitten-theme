@@ -96,10 +96,7 @@ h2 {
 /* ---------- BADGES ---------- */
 .badge {
   word-break: normal;
-  border-radius: 0px;
-}
-.card__content{
-  padding: 0px !important;
+  border-radius: 15px;
 }
 
 
