@@ -48,9 +48,10 @@
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
       {%- if card_collection.featured_image -%}
-        <div class="card__media">
-          <div class="media media--transparent media--hover-effect">
-            <img
+        <a href="{{ card_collection.url }}" class="full-unstyled-link">
+          <div class="card__media">
+            <div class="media media--transparent media--hover-effect">
+              <img
               srcset="
                 {%- if card_collection.featured_image.width >= 165 -%}{{ card_collection.featured_image | image_url: width: 165 }} 165w,{%- endif -%}
                 {%- if card_collection.featured_image.width >= 330 -%}{{ card_collection.featured_image | image_url: width: 330 }} 330w,{%- endif -%}
@@ -73,8 +74,9 @@
               loading="lazy"
               class="motion-reduce"
             >
+            </div>
           </div>
-        </div>
+        </a>
       {%- endif -%}
       {%- if card_collection == blank -%}
         <div class="card__media">
