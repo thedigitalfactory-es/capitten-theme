@@ -97,6 +97,8 @@ h2 {
 .badge {
   word-break: normal;
   border-radius: 0px;
+  font-size: 1.1rem;
+  padding: 3px 8px;
 }
 .card__content{
   padding: 0px !important;
