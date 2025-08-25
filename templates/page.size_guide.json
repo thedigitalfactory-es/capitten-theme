@@ -18,50 +18,6 @@
     },
     "collapsible_content_tDiM8e": {
       "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_g6PaxQ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "FOOTBALL BOOTS",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": "size-guide-football-boots"
-          }
-        },
-        "collapsible_row_WAmKnB": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "ADULT HOODIES / TEES",
-            "icon": "check_mark",
-            "row_content": "<p><br/><br/></p>",
-            "page": "size-guide-adult-hoodies-tees"
-          }
-        },
-        "collapsible_row_yX7PV6": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "ADULT BOTTOM",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": "size-guide-adult-bottom"
-          }
-        },
-        "collapsible_row_VtqnN9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "ONE IC",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": "size-guide-one-ic"
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_g6PaxQ",
-        "collapsible_row_WAmKnB",
-        "collapsible_row_yX7PV6",
-        "collapsible_row_VtqnN9"
-      ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
