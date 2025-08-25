@@ -99,7 +99,7 @@ h2 {
   border-radius: 0px;
 }
 .card__content{
-  padding: 0px;
+  padding: 0px !important;
 }
 
 
