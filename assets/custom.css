@@ -93,6 +93,13 @@ h2 {
 
 
 
+/* ---------- BADGES ---------- */
+.badge {
+  word-break: normal;
+  border-radius: 0px;
+}
+
+
 /* ---------- COMUN ---------- */
 .product__tax {
   display: none;
