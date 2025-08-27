@@ -41,14 +41,14 @@
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "HELP",
+            "heading": "INFO",
             "menu": "footer"
           }
         },
         "link_list_GJJqyM": {
           "type": "link_list",
           "settings": {
-            "heading": "INFO",
+            "heading": "HELP",
             "menu": "footer-pol-ticas"
           }
         }
