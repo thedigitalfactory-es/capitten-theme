@@ -15,9 +15,15 @@
         "padding_top": 28,
         "padding_bottom": 0
       }
+    },
+    "main2": {
+      "type": "returns-page",
+      "settings": {
+        "page-returns":""
+      }
     }
   },
   "order": [
-    "main"
+    "main","main2"
   ]
 }
