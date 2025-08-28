@@ -20,7 +20,7 @@
     "main2": {
       "type": "returns-page",
       "custom_css": [
-        ".Container{padding: 0 10px;}"
+        ".Container {padding: 0 15px;}"
       ],
       "settings": {
         "page-returns": ""
