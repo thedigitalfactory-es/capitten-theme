@@ -1,0 +1,220 @@
+<div class="Container">
+  <header class="PageHeader">
+    <div class="SectionHeader SectionHeader--center">
+      <h1 class="SectionHeader__Heading Heading u-h1"> {{ page_title }}</h1>
+    </div>
+  </header>
+
+  {% if request.locale.iso_code == 'es' %}
+      <div class="PageContent PageContent--narrow Rte form-custom">
+    {% form 'contact' %}
+      {%- if form.posted_successfully? -%}
+        <div class="MB">
+          <p>¡Datos recogidos! En breve te llegará un mensaje de confirmación.</p>
+        </div>
+      {%- endif -%}
+      
+      {{ form.errors | default_errors }}
+
+      <div class="field">
+          <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[first_name]" value="" placeholder="Nombre">
+          <label class="field__label" for="ContactForm-name">Nombre</label>
+      </div>
+
+
+      <div class="field">
+          <input class="field__input" autocomplete="order" type="text" id="ContactForm-order" name="contact[order_number]" value="" placeholder="Número de orden">
+          <label class="field__label" for="ContactForm-order">Número de orden</label>
+      </div>
+
+      <div class="field">
+          <input class="field__input" autocomplete="email" type="text" id="ContactForm-email" name="contact[email]" value="" placeholder="Correo electrónico">
+          <label class="field__label" for="ContactForm-email">Correo electrónico</label>
+      </div>
+
+
+      <div class="field">
+          <textarea rows="10" id="ContactForm-reason" class="text-area field__input" name="contact[reason]" placeholder="Razón"></textarea>
+          <label class="form__label field__label" for="ContactForm-reason">Razón</label>
+      </div>
+
+       <div class="MB">
+        <p>¿Cómo quieres que te recojamos el producto?</p>
+
+        <input type="radio" id="html" name="contact[collected]" value="specific">
+        <label for="specific">Quiero que venga el repartidor a una dirección concreta. </label><br><input type="radio" id="css" name="contact[collected]" value="pick">
+        <label for="contact[pick]">Quiero dejar el paquete en un punto de recogida.</label><br>     
+       </div>
+ <div class="MB">
+    <p>Elige el día de la recogida.</p>
+   </div>
+      <div class="inline">
+        <label><input type="text" class="dd" name="contact[mm]" name="month" size="2" placeholder="MM"></label>
+        <label><input type="text" class="dd" name="contact[dd]" name="day" size="2" placeholder="DD"></label>
+        <label><input type="text" class="yyyy" name="contact[yyyy]" name="year" size="4" placeholder="YYYY"></label>
+        </div>
+
+     <div class="MB">
+     
+    <p>Escribe la dirección de recogida e indica si tienes alguna preferencia horaria (Debe ser una franja horaria de al menos 4 horas)</p>
+       </div>
+
+      <div class="field">
+          <input class="field__input" autocomplete="extra" type="text" id="ContactForm-extra" name="contact[extra_info]" value="" placeholder="">
+          <label class="field__label" for="ContactForm-extra"></label>
+      </div>
+    
+    <button type="submit" class="button">Enviar</button>
+
+     
+    
+    {% endform %}
+    
+  </div>
+</div>
+{% endif %}
+
+
+  {% if request.locale.iso_code == 'en' %}
+
+      <div class="PageContent PageContent--narrow Rte form-custom">
+    {% form 'contact' %}
+      {%- if form.posted_successfully? -%}
+        <div class="MB">
+          <p>Data collected! You will receive a confirmation message shortly.</p>
+        </div>
+      {%- endif -%}
+      
+      {{ form.errors | default_errors }}
+
+      <div class="field">
+          <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[first_name]" value="" placeholder="Name">
+          <label class="field__label" for="ContactForm-name">Name</label>
+      </div>
+
+
+      <div class="field">
+          <input class="field__input" autocomplete="order" type="text" id="ContactForm-order" name="contact[order_number]" value="" placeholder="Order number">
+          <label class="field__label" for="ContactForm-order">Order number</label>
+      </div>
+
+      <div class="field">
+          <input class="field__input" autocomplete="email" type="text" id="ContactForm-email" name="contact[email]" value="" placeholder="Email">
+          <label class="field__label" for="ContactForm-email">Email</label>
+      </div>
+
+
+      <div class="field">
+          <textarea rows="10" id="ContactForm-reason" class="text-area field__input" name="contact[reason]" placeholder="Reason"></textarea>
+          <label class="form__label field__label" for="ContactForm-reason">Reason</label>
+      </div>
+
+       <div class="MB">
+        <p>How do you want us to pick up the product?</p>
+
+        <input type="radio" id="html" name="contact[collected]" value="specific">
+        <label for="specific">I want the delivery person to come to a specific address. </label><br><input type="radio" id="css" name="contact[collected]" value="pick">
+        <label for="contact[pick]">I want to leave the package at a collection point.</label><br>
+       </div>
+ <div class="MB">
+    <p>Choose the day of collection.</p>
+   </div>
+      <div class="inline">
+        <label><input type="text" class="dd" name="contact[mm]" name="month" size="2" placeholder="MM"></label>
+        <label><input type="text" class="dd" name="contact[dd]" name="day" size="2" placeholder="DD"></label>
+        <label><input type="text" class="yyyy" name="contact[yyyy]" name="year" size="4" placeholder="YYYY"></label>
+        </div>
+
+     <div class="MB">
+     
+    <p>Write the pickup address and indicate if you have any time preference (It must be a time slot of at least 4 hours)</p>
+       </div>
+
+      <div class="field">
+          <input class="field__input" autocomplete="extra" type="text" id="ContactForm-extra" name="contact[extra_info]" value="" placeholder="">
+          <label class="field__label" for="ContactForm-extra"></label>
+      </div>
+    
+    <button type="submit" class="button">
+                    Send
+                  </button>
+
+     
+    
+    {% endform %}
+    
+  </div>
+</div>
+{% endif %}
+
+  
+
+
+
+
+
+
+  <style>
+    .Container .field{
+      margin-bottom:20px;
+    }
+     .Container {
+      max-width: 500px;
+       margin:auto;
+    }
+.form-custom .Form__Input{
+    margin-bottom:20px;
+}
+
+  .form-custom .inline{
+ 
+    display: inline-block;
+    margin-right: 10px;
+
+  }
+
+  .form-custom .inline input{
+ 
+    border:none;
+    border-bottom: 1px solid #d7d7d7;
+    padding:10px 0;
+    margin-right: 5px;
+
+  }
+
+  .form-custom .inline input.dd{
+ 
+    width:22px
+
+  }
+
+  .form-custom .inline input.yyyy{
+ 
+    width:40px
+
+  }
+
+.form-custom .MB{
+    margin-bottom:20px;
+  margin-top:20px;
+}
+</style>
+{% schema %}
+{
+  "name": "Page returns",
+  "tag": "section",
+  "class": "spaced-section",
+  "settings": [
+    {
+      "type": "page",
+      "id": "page-returns",
+      "label": "Page returns"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Page returns"
+    }
+  ]
+}
+{% endschema %}
