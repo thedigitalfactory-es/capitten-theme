@@ -19,9 +19,7 @@
     },
     "main2": {
       "type": "returns-page",
-      "custom_css": [
-        ".Container {padding: 0 15px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "page-returns": ""
       }
