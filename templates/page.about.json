@@ -60,7 +60,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Mask-group-26.jpg",
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
@@ -98,8 +98,8 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/090_1.jpg",
-        "height": "medium",
+        "image": "shopify://shop_images/About-Us-Banner-Poster_-1080-x-1600-px-691x1024.jpg",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "image_behavior": "none",
