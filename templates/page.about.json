@@ -11,13 +11,113 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 0
       }
+    },
+    "image_banner_QbUgrW": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/banners_capitten_v3.jpg",
+        "image_mobile": "shopify://shop_images/About-Us-Hero-image-Andres-_-1080-x-1600-px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "top-left",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_with_text_HhM8cJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hTVY3V": {
+          "type": "heading",
+          "settings": {
+            "heading": "LA LEYENDA <strong>CONTINÚA</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_M36gUP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Andrés Iniesta es uno de los artífices que redefinió la forma en que se juega al fútbol. Con los pies en el césped, formó parte de una generación que cambió la historia con humildad, y aún así, haciendo magia. Magia como recompensa al esfuerzo, al trabajo duro, a la perseverancia en el campo. Una actitud forjada en no rendirse. Capitten no es solo un legado, es una herramienta para empezar, seguir adelante y continuar luchando en el césped, con todo y a pesar de todo.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hTVY3V",
+        "text_M36gUP"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Mask-group-26.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_nXtcFr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8EA7Wn": {
+          "type": "heading",
+          "settings": {
+            "heading": "SER UN <strong>CAPITTEN</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Vrd76q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Un Capitten es confiable cuando todo parece desmoronarse. Confía en el resultado. El trabajo arduo siempre da frutos. Siempre comprometido con sus propios valores, sigue adelante. Solo enfocado en dar lo mejor, entonces nada puede salir mal. Ya sea que ganemos o que perdamos, cada juego nos hará mejores, más fuertes y más experimentados. Las victorias son el premio. Las derrotas son parte del aprendizaje.<br/><br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8EA7Wn",
+        "text_Vrd76q"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/090_1.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_QbUgrW",
+    "image_with_text_HhM8cJ",
+    "image_with_text_nXtcFr"
   ]
 }
