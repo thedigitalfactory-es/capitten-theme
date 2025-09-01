@@ -308,27 +308,6 @@ footer footer-slider .slider li img {
   margin-bottom: 0px;
 }
 
-.product .product__title h1{
-  font-size: 18px !important;
-}
-
-.product .product__info-container>*+* {
-  margin: 0px;
-  margin-bottom: 10px
-}
-
-.product .grid__item{
-  margin-bottom: 5px;
-}
-
-.product .slider-mobile-gutter{
-  margin-top: -5px;
-  padding: 0px 40px;
-}
-
-.product .product-form__buttons{
-  margin-top: -5px;
-}
 
 
 
