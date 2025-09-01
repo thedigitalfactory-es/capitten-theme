@@ -310,6 +310,7 @@ footer footer-slider .slider li img {
 
 .product .product__info-container>*+* {
   margin: 0px;
+  margin-bottom: 10px
 }
 
 
