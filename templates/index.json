@@ -48,7 +48,7 @@
         "image": "shopify://shop_images/banners_capitten_v3.jpg",
         "image_mobile": "shopify://shop_images/About-Us-Hero-image-Andres-_-1080-x-1600-px.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "image_behavior": "none",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
