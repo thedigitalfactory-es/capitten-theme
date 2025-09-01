@@ -313,7 +313,9 @@ footer footer-slider .slider li img {
   margin-bottom: 10px
 }
 
-
+.slider-mobile-gutter{
+  margin: 0px 20px;
+}
 
 /* ---------- CART ---------- */
 #shopify-section-template--24554824434040__cart-items .underlined-link {
