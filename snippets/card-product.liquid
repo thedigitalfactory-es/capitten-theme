@@ -473,6 +473,8 @@
                         {%- if card_product.featured_media -%}
                           {% assign variant_images = card_product.images | where: 'attached_to_variant?', true | map: 'src' %}
                           {% assign gallery_section = '{"id": "QuickAdd-' | append: card_product.id | append: '", "settings": {"gallery_layout": "thumbnail_slider", "mobile_thumbnails": "show", "media_size": "small"}}' | parse_json %}
+                          <!-- {{ variant_images }} -->
+                          <!-- {{ gallery_section }} -->
                           <div class="quick-add__product-media">
                             <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
                             {% render 'product-media-gallery', product: card_product, variant_images: variant_images, section: gallery_section %}
