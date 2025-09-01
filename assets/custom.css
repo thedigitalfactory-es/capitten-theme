@@ -131,7 +131,7 @@ h2 {
   line-height: 40px;
 }
 
-.header .announcement-bar__message{
+.announcement-bar__message{
   min-height: 0px !important;
 }
 
