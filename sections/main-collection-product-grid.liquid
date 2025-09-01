@@ -190,6 +190,9 @@
       </div>
     </div>
   {%- endpaginate -%}
+  {%- if section.settings.show_collection_description and collection.description != blank -%}
+    <div class="collection-description page-width rte">{{ collection.description }}</div>
+  {%- endif -%}
   {% if section.settings.image_shape == 'arch' %}
     {{ 'mask-arch.svg' | inline_asset_content }}
   {%- endif -%}
@@ -323,6 +326,12 @@
       "default": false,
       "label": "t:sections.main-collection-product-grid.settings.show_rating.label",
       "info": "t:sections.main-collection-product-grid.settings.show_rating.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_collection_description",
+      "default": true,
+      "label": "t:sections.main-collection-banner.settings.show_collection_description.label"
     },
     {
       "type": "select",
