@@ -305,7 +305,7 @@ footer footer-slider .slider li img {
 }
 
 .product .product__title{
-  margin-bottom: 0px;
+  margin-bottom: 0px !important;
 }
 
 
