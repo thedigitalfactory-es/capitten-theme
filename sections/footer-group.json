@@ -41,15 +41,8 @@
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "HELP",
-            "menu": "footer"
-          }
-        },
-        "link_list_GJJqyM": {
-          "type": "link_list",
-          "settings": {
             "heading": "INFO",
-            "menu": "footer-info"
+            "menu": "footer"
           }
         }
       },
@@ -58,8 +51,7 @@
         "slider_image_fdD4fY",
         "slider_image_9wxUi8",
         "slider_image_6zYbJP",
-        "footer-1",
-        "link_list_GJJqyM"
+        "footer-1"
       ],
       "settings": {
         "color_scheme": "scheme-4",
