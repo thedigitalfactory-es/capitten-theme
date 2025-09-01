@@ -269,7 +269,7 @@ footer footer-slider .slider li img {
 
 /* ---------- FdP ---------- */
 .product .thumbnail-list__item.slider__slide {
-  width: calc(20% - 0.6rem);
+  width: calc(15% - 0.6rem);
 }
 
 .product .product__info-container .price, .product__info-container .icon-with-text, .product__info-container .product-form__input  {
