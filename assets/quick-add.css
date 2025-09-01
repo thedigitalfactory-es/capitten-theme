@@ -291,9 +291,11 @@ quick-add-modal .product__modal-opener:not(.product__modal-opener--image){
   display: none !important;
 }
 
+/*
 quick-add-modal .slider.slider--mobile {
   overflow: visible;
 }
+*/
 
 quick-add-modal .product__column-sticky .product__media-list {
   margin-bottom: 0;
