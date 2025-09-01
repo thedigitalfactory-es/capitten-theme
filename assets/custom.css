@@ -131,6 +131,9 @@ h2 {
   line-height: 40px;
 }
 
+.header .announcement-bar__message{
+  min-height: 0px;
+}
 
 
 
@@ -255,10 +258,6 @@ footer footer-slider .slider li img {
 
 
 /* ---------- FdP ---------- */
-@media screen and (max-width: 749px) {
-    
-}
-
 .product .thumbnail-list__item.slider__slide {
   width: calc(20% - 0.6rem);
 }
