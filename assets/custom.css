@@ -308,6 +308,11 @@ footer footer-slider .slider li img {
   margin-bottom: 0px;
 }
 
+.product .product__info-container>*+* {
+  margin: 0px;
+  margin-bottom: 10px
+}
+
 
 
 
