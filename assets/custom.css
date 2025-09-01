@@ -300,6 +300,9 @@ footer footer-slider .slider li img {
   font-weight: 400;
 }
 
+.product legend{
+  display: none;
+}
 
 
 
