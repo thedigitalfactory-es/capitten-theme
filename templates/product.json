@@ -12,6 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -41,10 +45,6 @@
             "icon_3": "return",
             "heading_3": "Free return (15 days)"
           }
-        },
-        "title": {
-          "type": "title",
-          "settings": {}
         },
         "collapsible_tab_gfTgnh": {
           "type": "collapsible_tab",
@@ -90,11 +90,11 @@
         }
       },
       "block_order": [
+        "title",
         "price",
         "variant_picker",
         "buy_buttons",
         "icon_with_text_8JqFLw",
-        "title",
         "collapsible_tab_gfTgnh",
         "collapsible-row-2",
         "collapsible_tab_jke8xw",
