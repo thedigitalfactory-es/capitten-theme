@@ -306,7 +306,10 @@ footer footer-slider .slider li img {
 
 .product .product__title{
   margin-bottom: 0px;
-  font-size: 16px !important;
+}
+
+.product .product__title h1{
+  font-size: 18px !important;
 }
 
 .product .product__info-container>*+* {
