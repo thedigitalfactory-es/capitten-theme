@@ -131,9 +131,14 @@ h2 {
   line-height: 40px;
 }
 
-.announcement-bar__message{
+.header .announcement-bar__message{
   min-height: 0px !important;
 }
+
+.header .slider-button {
+  height: 30px;
+}
+
 
 
 
