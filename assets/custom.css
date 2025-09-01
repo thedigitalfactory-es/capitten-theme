@@ -313,6 +313,10 @@ footer footer-slider .slider li img {
   margin-bottom: 10px
 }
 
+.product .grid__item{
+  margin-bottom: 10px;
+}
+
 .product .slider-mobile-gutter{
   padding: 0px 40px;
 }
