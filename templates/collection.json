@@ -12,7 +12,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
       }
@@ -29,6 +29,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "show_collection_description": true,
         "quick_add": "standard",
         "enable_filtering": true,
         "filter_type": "horizontal",
