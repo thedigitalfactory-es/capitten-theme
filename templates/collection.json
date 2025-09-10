@@ -23,7 +23,7 @@
         "text_mz3QRM": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"/collections/footwear\" title=\"Footwear\">Footwear</a>     ·     <a href=\"/collections/apparel\" title=\"Apparel\">Apparel</a></p>"
+            "text": "<p><a href=\"/collections/footwear\" title=\"Footwear\">Footwear</a> <a href=\"/collections/apparel\" title=\"Apparel\">Apparel</a></p>"
           }
         }
       },
@@ -31,7 +31,8 @@
         "text_mz3QRM"
       ],
       "custom_css": [
-        "div {background-color: #eee;}"
+        "div {background-color: #eee;}",
+        "a{padding: 0px 10px;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
