@@ -64,8 +64,8 @@
       "next_slide": "Diapositiva a la derecha",
       "previous_slide": "Diapositiva a la izquierda",
       "name": "Carrusel"
-    }
-    ,"breadcrumbs": {
+    },
+    "breadcrumbs": {
       "home": "Inicio"
     }
   },

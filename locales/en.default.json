@@ -65,6 +65,9 @@
       "previous_slide": "Slide left",
       "name": "Slider",
       "load_slide": "Loading slide"
+    },
+    "breadcrumbs": {
+      "home": "Home"
     }
   },
   "newsletter": {
