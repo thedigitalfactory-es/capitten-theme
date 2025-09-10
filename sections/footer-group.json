@@ -14,28 +14,28 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "slider_image_iK6Acn": {
-          "type": "slider_image",
-          "settings": {
-            "image": "shopify://shop_images/NEGRO_AZUL_Apparel_Hombre_Playeras_03.jpg"
-          }
-        },
         "slider_image_fdD4fY": {
           "type": "slider_image",
           "settings": {
             "image": "shopify://shop_images/0ccc731f-1995-4502-a4ae-340b2e6bbf75.jpg"
           }
         },
-        "slider_image_9wxUi8": {
-          "type": "slider_image",
-          "settings": {
-            "image": "shopify://shop_images/ed6908835f062ca269b66b3d7b7a1a24.jpg"
-          }
-        },
         "slider_image_6zYbJP": {
           "type": "slider_image",
           "settings": {
             "image": "shopify://shop_images/crea018capitten-4.jpg"
+          }
+        },
+        "slider_image_9wxUi8": {
+          "type": "slider_image",
+          "settings": {
+            "image": "shopify://shop_images/A._INIESTA_ONE_MID_e4673fe6-4202-4401-8010-e8c367146bba.jpg"
+          }
+        },
+        "slider_image_iK6Acn": {
+          "type": "slider_image",
+          "settings": {
+            "image": "shopify://shop_images/Home_-_Banner_producto_HOME_Botas_1080_x_1350_px.jpg"
           }
         },
         "footer-1": {
@@ -47,10 +47,10 @@
         }
       },
       "block_order": [
-        "slider_image_iK6Acn",
         "slider_image_fdD4fY",
-        "slider_image_9wxUi8",
         "slider_image_6zYbJP",
+        "slider_image_9wxUi8",
+        "slider_image_iK6Acn",
         "footer-1"
       ],
       "settings": {
