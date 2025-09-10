@@ -9,6 +9,29 @@
  */
 {
   "sections": {
+    "rich_text_QieJmT": {
+      "type": "rich-text",
+      "blocks": {
+        "text_mz3QRM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/collections/footwear\" title=\"Footwear\">Footwear</a>     ·     <a href=\"/collections/apparel\" title=\"Apparel\">Apparel</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_mz3QRM"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -40,6 +63,7 @@
     }
   },
   "order": [
+    "rich_text_QieJmT",
     "banner",
     "product-grid"
   ]
