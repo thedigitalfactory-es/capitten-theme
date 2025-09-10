@@ -340,3 +340,16 @@ footer footer-slider .slider li img {
 .quick-add .customer button:after, .quick-add .shopify-payment-button__button--unbranded:after{
   box-shadow: none;
 }
+
+
+
+
+
+
+
+
+
+/* ---------- CHECKOUT ---------- */
+.bSo96 h2{
+  text-transform: uppercase;
+}
