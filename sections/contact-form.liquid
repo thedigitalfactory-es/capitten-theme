@@ -127,9 +127,19 @@
         </label>
       </div>
 
-      <div class="contact-form__privacy" style="margin: 1em 0;">
-            <input type="checkbox" id="privacy-checkbox" required>
-            <label for="privacy-checkbox">He leído y acepto la <a href="/policies/privacy-policy" target="_blank">política de privacidad y coookies</a> y acepto recibir comunicaciones comerciales a través de mi correo electrónico</label>
+     <div class="contact-form__privacy" style="margin: 1em 0;">
+          <input type="checkbox" id="privacy-checkbox" required>
+          <label for="privacy-checkbox">
+            {% if localization.language.iso_code == 'en' %}
+              I have read and accept the 
+              <a href="/en/policies/privacy-policy" target="_blank">Privacy and Cookies Policy</a> 
+              and I agree to receive commercial communications via email.
+            {% else %}
+              He leído y acepto la 
+              <a href="/policies/privacy-policy" target="_blank">Política de Privacidad y Cookies</a> 
+              y acepto recibir comunicaciones comerciales a través de mi correo electrónico.
+            {% endif %}
+          </label>
       </div>
 
       
