@@ -126,6 +126,14 @@
           {{- 'templates.contact.form.comment' | t -}}
         </label>
       </div>
+
+      <div class="contact-form__privacy" style="margin: 1em 0;">
+            <input type="checkbox" id="privacy-checkbox" required>
+            <label for="privacy-checkbox">He leído y acepto la <a href="/policies/privacy-policy" target="_blank">política de privacidad</a>.
+            </label>
+      </div>
+
+      
       <div class="contact__button">
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
@@ -133,7 +141,7 @@
       </div>
     {%- endform -%}
   </div>
-</div>
+
 
 {% schema %}
 {
