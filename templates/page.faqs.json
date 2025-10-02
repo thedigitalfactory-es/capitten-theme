@@ -15,9 +15,155 @@
         "padding_top": 28,
         "padding_bottom": 0
       }
+    },
+    "collapsible_content_gX7mME": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_V6kk4J": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CONTACT CAPITTEN ",
+            "icon": "check_mark",
+            "row_content": "<p>To contact us, simply send an email to hello@capitten.com. Our customer service team is committed to responding within 24 hours on business days (Monday to Friday, from 9:00 to 18:00). We appreciate your inquiries and will be happy to assist you as soon as possible.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YVn4GR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW CAN I BECOME A CAPITTEN DISTRIBUTOR? ",
+            "icon": "check_mark",
+            "row_content": "<p>Interested in joining our distributor network? Write to us at hello@capitten.com to learn more about how to become part of our growing community of partners.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_K9DDEm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "INTERNATIONAL AVAILABILITY ",
+            "icon": "check_mark",
+            "row_content": "<p>At Capitten, we work to expand our legacy worldwide. Stay informed by subscribing to our newsletter or following us on social media to know when we will be available in your country.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zz9dAr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW LONG WILL IT TAKE FOR MY ORDER TO ARRIVE?",
+            "icon": "check_mark",
+            "row_content": "<p>Once your order is ready, you will receive a confirmation email with the details and a tracking link. From that moment, delivery will take a maximum of 6 business days.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WaPfpC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHAT ARE THE REQUIREMENTS TO RETURN A PRODUCT? ",
+            "icon": "check_mark",
+            "row_content": "<p>You have 15 calendar days from the date of receipt to request a return. The product must be unused and in perfect condition. You must also keep the original tags (clothing/footwear) and return it in its original packaging.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_V6kk4J",
+        "collapsible_row_YVn4GR",
+        "collapsible_row_K9DDEm",
+        "collapsible_row_zz9dAr",
+        "collapsible_row_WaPfpC"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "<strong>CUSTOMER SERVICE</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_9f6jg3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_KKPiG9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW TO CHOOSE YOUR SHOES",
+            "icon": "check_mark",
+            "row_content": "<p>1.Select the appropriate footwear for the intended use. Size, structure, and materials vary depending on the purpose. Make sure to choose the shoes that best fit your activity.</p><p>2. Try on both shoes. Each foot is different, and many people have different sizes between the left and right foot. Note: We cannot accept returns of used shoes, so it is important to try them thoroughly before wearing them outdoors.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8PJMKF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SHOE LIFESPAN ",
+            "icon": "check_mark",
+            "row_content": "<p>Shoes, as semi-durable goods, wear out with use and may also deteriorate over time, even if not worn. Factors such as temperature or humidity can accelerate this process. If you store your shoes for a long period, make sure to check the soles before wearing them. If you notice cracks or damage, do not use them.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rGrVCj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "USAGE PRECAUTIONS ",
+            "icon": "check_mark",
+            "row_content": "<p>Each type of sole is designed for specific surfaces. Using shoes on unsuitable surfaces may accelerate sole wear or even cause injuries. In addition, wearing worn-out soles increases the risk of accidents. Please note that we are not responsible for damage if the product is not used for its intended purpose.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dT88cz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SHOE CARE",
+            "icon": "check_mark",
+            "row_content": "<p>Do not machine wash your shoes.</p><p>Let your shoes dry naturally, avoiding direct sunlight and heat sources such as stoves or radiators.</p><p>Maintain the shape of your shoes while drying, in a shaded and well-ventilated area. Improper drying may cause mold, which is difficult to remove completely.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mpyFBd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "MATERIAL-BASED CARE",
+            "icon": "check_mark",
+            "row_content": "<p>Natural leather (smooth leather surface): Clean with a soft brush and a dry cloth. Apply a shoe cream in the same color as the leather and polish with a brush or cloth.</p><p>Natural leather (suede, nubuck, other types): Use a special brush to lift fibers and remove dirt.</p><p>Synthetic leather and synthetic fibers: Clean with a soft brush or a damp cloth.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_KKPiG9",
+        "collapsible_row_8PJMKF",
+        "collapsible_row_rGrVCj",
+        "collapsible_row_dT88cz",
+        "collapsible_row_mpyFBd"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "INSTRUCTION MANUAL",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collapsible_content_gX7mME",
+    "collapsible_content_9f6jg3"
   ]
 }
