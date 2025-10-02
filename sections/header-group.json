@@ -20,18 +20,10 @@
             "text": "10% off when you subscribe",
             "link": ""
           }
-        },
-        "announcement_KdQmd6": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free shipping to Spain",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_KdQmd6"
+        "announcement-bar-0"
       ],
       "custom_css": [],
       "settings": {
