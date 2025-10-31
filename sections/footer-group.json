@@ -56,6 +56,12 @@
             "image": "shopify://shop_images/P1109443.jpg"
           }
         },
+        "slider_image_Hfp7ba": {
+          "type": "slider_image",
+          "settings": {
+            "image": "shopify://shop_images/Botas.jpg"
+          }
+        },
         "footer-1": {
           "type": "link_list",
           "settings": {
@@ -72,6 +78,7 @@
         "slider_image_mziT39",
         "slider_image_6Xq9mi",
         "slider_image_dCH3Jh",
+        "slider_image_Hfp7ba",
         "footer-1"
       ],
       "settings": {
