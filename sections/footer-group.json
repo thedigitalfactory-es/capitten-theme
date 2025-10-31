@@ -38,6 +38,24 @@
             "image": "shopify://shop_images/Home_-_Banner_producto_HOME_Botas_1080_x_1350_px.jpg"
           }
         },
+        "slider_image_mziT39": {
+          "type": "slider_image",
+          "settings": {
+            "image": "shopify://shop_images/A.INIESTA.jpg"
+          }
+        },
+        "slider_image_6Xq9mi": {
+          "type": "slider_image",
+          "settings": {
+            "image": "shopify://shop_images/Capitten_Iniesta_OnBody_1200x1200_7ac7fc49-9697-493c-bc74-0a18f6b9a69c.jpg"
+          }
+        },
+        "slider_image_dCH3Jh": {
+          "type": "slider_image",
+          "settings": {
+            "image": "shopify://shop_images/P1109443.jpg"
+          }
+        },
         "footer-1": {
           "type": "link_list",
           "settings": {
@@ -51,6 +69,9 @@
         "slider_image_6zYbJP",
         "slider_image_9wxUi8",
         "slider_image_iK6Acn",
+        "slider_image_mziT39",
+        "slider_image_6Xq9mi",
+        "slider_image_dCH3Jh",
         "footer-1"
       ],
       "settings": {
