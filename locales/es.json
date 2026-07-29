@@ -63,7 +63,8 @@
       "of": "de",
       "next_slide": "Diapositiva a la derecha",
       "previous_slide": "Diapositiva a la izquierda",
-      "name": "Carrusel"
+      "name": "Carrusel",
+      "load_slide": "Cargando diapositiva"
     },
     "breadcrumbs": {
       "home": "Inicio"
